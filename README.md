@@ -2,9 +2,11 @@
 
 Code, protocol, splits, results and literature audit for the paper
 
-> *How Much Can Duplicates and Evaluation Shortcuts Inflate Image-Based Malware Detection? A Leakage-Controlled Evaluation of Unseen Families and an Audit of Reporting Practice* (IEEE Access, under review).
+> *How Duplicates and Evaluation Shortcuts Can Inflate Image-Based Malware Detection: A Leakage-Controlled Study* (IEEE Access, under review).
 
-Archived release: DOI **[to be added after the first Zenodo release]**
+Repository: https://github.com/munna237/AUDIT-X
+
+Release: tag `v1.0` of this repository is the version described in the paper. The SHA-256 hashes below let anyone check that the protocol and training scripts are the ones the runs recorded.
 
 The repository contains no malware images or binaries. The datasets must be obtained from their original
 sources; this repository publishes the hashes and split assignments needed to reproduce every partition.
@@ -16,7 +18,8 @@ sources; this repository publishes the hashes and split assignments needed to re
 | `protocol/` | The evaluation protocol and Amendment 1, unchanged since the runs; `SHA256SUMS.txt` |
 | `code/` | Training and analysis scripts, byte-identical to the versions recorded by the runs |
 | `notebooks/final/` | The Kaggle notebooks that ran the final experiments (FINAL_A to FINAL_X) |
-| `notebooks/development/` | Earlier notebooks; only the cross-representation and few-shot notebooks (08, 10, 14) feed the paper, as a secondary analysis |
+| `notebooks/development/` | Earlier notebooks from before the final protocol; kept for transparency, not used for any reported result |
+| `notebooks/rq1_controls/`, `code/rq1_controls/` | RQ1 controls added after the main analysis: naive image-level splits, MaleVis without the group cap, exact duplicate exposure |
 | `splits/` | Per-image hashes, duplicate groups and the five split assignments per dataset |
 | `results/` | Analysis outputs (CSV tables, summaries) and the run logs |
 | `tools/` | Scripts to verify hashes, regenerate the splits and match a local dataset copy |
@@ -86,6 +89,10 @@ script hashes. To re-run, attach the dataset in Kaggle and commit the notebook w
 ```bash
 pip install -r requirements.txt
 ```
+
+## RQ1 controls (added after the main analysis)
+
+The naive control trains the three single CNNs on image-level splits with the same excluded families, unknown families and training seeds as the grouped runs; the deep ensemble is their average. `results/rq1_controls/` holds the paired comparisons (`RQ1_naive_vs_grouped_<dataset>.csv`, per run in `_long.csv`), the duplicate exposure of the splits and the permutation null for the selection shortcut (`E3_permutation_null.csv`). The MaleVis cap-none run and the exact exposure from the run splits are produced by `notebooks/rq1_controls/RQ1b_MaleVis_CAP_NONE.ipynb` and `CPU_ANALYSES_exposure_and_FAR_groups.ipynb` (which also runs the group-level false-alarm analysis).
 
 ## Results
 
