@@ -1,0 +1,7 @@
+dataset,split,variant_families_removed,unknown_images_removed,n_unknown
+Malimg,0,,0,54
+Malimg,1,,0,54
+MaleVis,0,,0,54
+MaleVis,1,,0,54
+Dumpware10,0,,0,54
+Dumpware10,1,,0,54

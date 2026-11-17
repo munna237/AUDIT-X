@@ -1,0 +1,92 @@
+{
+ "dataset": "MaleVis",
+ "protocol": "grouped-L1-v3+identical-hash-whole+near-L3-8bit-cap250",
+ "n_images": 14226,
+ "n_images_used": 13726,
+ "excluded_families": [
+  "VBA"
+ ],
+ "mean_unseen_families": 4.8,
+ "splits": [
+  {
+   "split": 0,
+   "unseen_families": [
+    "Allaple",
+    "Autorun",
+    "HackKMS",
+    "Neoreklami",
+    "Sality"
+   ],
+   "n_train": 7909,
+   "n_val": 921,
+   "n_calib": 955,
+   "n_test": 1469,
+   "n_unseen": 2472,
+   "groups_crossing_parts": 0
+  },
+  {
+   "split": 1,
+   "unseen_families": [
+    "Amonetize",
+    "Injector",
+    "InstallCore",
+    "Neshta",
+    "Stantinko"
+   ],
+   "n_train": 7710,
+   "n_val": 864,
+   "n_calib": 1291,
+   "n_test": 1372,
+   "n_unseen": 2489,
+   "groups_crossing_parts": 0
+  },
+  {
+   "split": 2,
+   "unseen_families": [
+    "Adposhel",
+    "BrowseFox",
+    "InstallCore",
+    "Neshta",
+    "VBKrypt"
+   ],
+   "n_train": 8118,
+   "n_val": 1281,
+   "n_calib": 754,
+   "n_test": 1093,
+   "n_unseen": 2480,
+   "groups_crossing_parts": 0
+  },
+  {
+   "split": 3,
+   "unseen_families": [
+    "Hlux",
+    "MultiPlug",
+    "Neshta",
+    "Regrun",
+    "VBKrypt"
+   ],
+   "n_train": 8215,
+   "n_val": 1478,
+   "n_calib": 824,
+   "n_test": 732,
+   "n_unseen": 2477,
+   "groups_crossing_parts": 0
+  },
+  {
+   "split": 4,
+   "unseen_families": [
+    "Adposhel",
+    "Amonetize",
+    "Hlux",
+    "Stantinko"
+   ],
+   "n_train": 8278,
+   "n_val": 1043,
+   "n_calib": 1373,
+   "n_test": 1041,
+   "n_unseen": 1991,
+   "groups_crossing_parts": 0
+  }
+ ],
+ "sklearn": "1.6.1"
+}

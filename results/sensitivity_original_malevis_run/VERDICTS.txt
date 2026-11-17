@@ -1,0 +1,43 @@
+Malimg: /kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script ef76bd1e6704 | protocol file aaa563ecc3c7
+MaleVis: /kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script ef76bd1e6704 | protocol file aaa563ecc3c7
+Dumpware10: /kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10 | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script ef76bd1e6704 | protocol file aaa563ecc3c7
+protocol document identical across all runs, sha256 aaa563ecc3c7ee8bcc59d66a33bcfa60cf8f5e7c98eccff60a966b3e4849853e
+Malimg split 0: scored (4.2 min)
+Malimg split 1: scored (8.5 min)
+Malimg split 2: scored (12.7 min)
+Malimg split 3: scored (16.8 min)
+Malimg split 4: scored (21.0 min)
+MaleVis split 0: scored (27.1 min)
+MaleVis split 1: scored (33.1 min)
+MaleVis split 2: scored (39.2 min)
+MaleVis split 3: scored (45.4 min)
+MaleVis split 4: scored (51.6 min)
+Dumpware10 split 0: scored (54.6 min)
+Dumpware10 split 1: scored (57.4 min)
+Dumpware10 split 2: scored (60.3 min)
+Dumpware10 split 3: scored (63.2 min)
+Dumpware10 split 4: scored (66.1 min)
+main table written: 288 rows
+C1 done
+C2 done
+C3 done
+C4 done
+C5 done
+C6 done
+xrep_raw.csv: summarised from /kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/xrep_raw.csv
+fewshot_raw.csv: summarised from /kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_v2_fewshot/fewshot_raw.csv
+fewshot_baselines_raw.csv: summarised from /kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_v2_fewshot_baselines/fewshot_baselines_raw.csv
+====================================================================================================
+C1 deep_ensemble+energy vs agef_sharp+energy: pooled +0.033 [+0.020, +0.059], Holm p 0.0000 -> SUPERIOR | Malimg +0.061 [+0.027, +0.136]; MaleVis +0.018 [+0.013, +0.023]; Dumpware10 +0.021 [-0.004, +0.043]
+C2 deep_ensemble+knn50 vs agef_sharp+knn50: pooled +0.033 [+0.024, +0.040], Holm p 0.0000 -> SUPERIOR | Malimg +0.005 [-0.004, +0.015]; MaleVis +0.043 [+0.034, +0.053]; Dumpware10 +0.050 [+0.030, +0.069]
+C3 avg_joint+energy vs agef_sharp+energy: pooled +0.008 [-0.007, +0.035], Holm p 0.4640 -> NO SIGNIFICANT DIFFERENCE | Malimg +0.029 [-0.005, +0.092]; MaleVis +0.001 [-0.007, +0.009]; Dumpware10 -0.004 [-0.038, +0.031]
+C4 agef_tuned+energy vs agef_sharp+energy: pooled +0.011 [-0.010, +0.030], Holm p 0.4640 -> EQUIVALENT (TOST) | Malimg +0.017 [-0.044, +0.049]; MaleVis +0.013 [+0.006, +0.019]; Dumpware10 +0.003 [-0.025, +0.045]
+C5 agef_tuned+energy vs deep_ensemble+energy: pooled -0.022 [-0.063, -0.002], Holm p 0.0780 -> NO SIGNIFICANT DIFFERENCE | Malimg -0.044 [-0.169, -0.007]; MaleVis -0.005 [-0.010, -0.002]; Dumpware10 -0.018 [-0.044, +0.027]
+C6 deep_ensemble+energy vs best_single+energy: pooled +0.034 [+0.022, +0.052], Holm p 0.0000 -> SUPERIOR | Malimg +0.023 [+0.011, +0.043]; MaleVis +0.020 [+0.015, +0.025]; Dumpware10 +0.059 [+0.027, +0.108]
+Residual duplicates across partitions (mean over splits):
+            L0_file  L1_pixels  L2_identical_hash  L3_hash_le8
+dataset                                                       
+Dumpware10      0.0        0.0             0.0000       0.0000
+MaleVis         0.0        0.0             0.1175       0.1355
+Malimg          0.0        0.0             0.0000       0.0245
+====================================================================================================

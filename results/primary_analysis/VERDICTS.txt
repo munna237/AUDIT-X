@@ -1,0 +1,46 @@
+Malimg: /kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script ef76bd1e6704 | protocol file aaa563ecc3c7
+MaleVis: /kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5 | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script 611bb69d73be | protocol file 9e25083cc4ea
+Dumpware10: /kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10 | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script ef76bd1e6704 | protocol file aaa563ecc3c7
+protocol-document sha256 per run: {'Malimg': 'aaa563ecc3c7ee8bcc59d66a33bcfa60cf8f5e7c98eccff60a966b3e4849853e', 'MaleVis': '9e25083cc4eae36aa1da15f9ca6ce0d0d8ed724e6e7c8cc9319e71f3303eaddf', 'Dumpware10': 'aaa563ecc3c7ee8bcc59d66a33bcfa60cf8f5e7c98eccff60a966b3e4849853e'}
+training-script sha256 per run: {'Malimg': 'ef76bd1e67049b226f9870cd04b00dea3826ba271a559f8f3e18aa7b50d4796b', 'MaleVis': '611bb69d73be92b8d6174eb6c90699c3fc1ad6b1a3643df5c40dfd37e8e18ff1', 'Dumpware10': 'ef76bd1e67049b226f9870cd04b00dea3826ba271a559f8f3e18aa7b50d4796b'}
+runs under the original protocol share one protocol document and one script; MaleVis uses Amendment 1 (different document and script hash, as intended)
+Malimg split 0: scored (3.1 min)
+Malimg split 1: scored (6.4 min)
+Malimg split 2: scored (9.4 min)
+Malimg split 3: scored (12.4 min)
+Malimg split 4: scored (15.5 min)
+MaleVis split 0: scored (19.6 min)
+MaleVis split 1: scored (23.8 min)
+MaleVis split 2: scored (27.7 min)
+MaleVis split 3: scored (31.5 min)
+MaleVis split 4: scored (35.4 min)
+Dumpware10 split 0: scored (37.2 min)
+Dumpware10 split 1: scored (39.1 min)
+Dumpware10 split 2: scored (41.0 min)
+Dumpware10 split 3: scored (42.8 min)
+Dumpware10 split 4: scored (44.7 min)
+main table written: 288 rows
+C1 done
+C2 done
+C3 done
+C4 done
+C5 done
+C6 done
+xrep_raw.csv: summarised from /kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/xrep_raw.csv
+fewshot_raw.csv: summarised from /kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_v2_fewshot/fewshot_raw.csv
+fewshot_baselines_raw.csv: summarised from /kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_v2_fewshot_baselines/fewshot_baselines_raw.csv
+====================================================================================================
+EVALUATION: as pre-registered
+C1 deep_ensemble+energy vs agef_sharp+energy: pooled +0.046 [+0.032, +0.072], Holm p 0.0000 -> SUPERIOR | Malimg +0.061 [+0.027, +0.136]; MaleVis +0.056 [+0.040, +0.076]; Dumpware10 +0.021 [-0.004, +0.043]
+C2 deep_ensemble+knn50 vs agef_sharp+knn50: pooled +0.031 [+0.023, +0.039], Holm p 0.0000 -> SUPERIOR | Malimg +0.005 [-0.004, +0.015]; MaleVis +0.039 [+0.027, +0.049]; Dumpware10 +0.050 [+0.030, +0.069]
+C3 avg_joint+energy vs agef_sharp+energy: pooled +0.017 [+0.000, +0.044], Holm p 0.0880 -> NO SIGNIFICANT DIFFERENCE | Malimg +0.029 [-0.005, +0.092]; MaleVis +0.026 [-0.002, +0.049]; Dumpware10 -0.004 [-0.038, +0.031]
+C4 agef_tuned+energy vs agef_sharp+energy: pooled +0.021 [-0.000, +0.040], Holm p 0.0880 -> NO SIGNIFICANT DIFFERENCE | Malimg +0.017 [-0.044, +0.049]; MaleVis +0.043 [+0.031, +0.055]; Dumpware10 +0.003 [-0.025, +0.045]
+C5 agef_tuned+energy vs deep_ensemble+energy: pooled -0.025 [-0.067, -0.004], Holm p 0.0240 -> INFERIOR | Malimg -0.044 [-0.169, -0.007]; MaleVis -0.013 [-0.025, -0.000]; Dumpware10 -0.018 [-0.044, +0.027]
+C6 deep_ensemble+energy vs best_single+energy: pooled +0.034 [+0.022, +0.052], Holm p 0.0000 -> SUPERIOR | Malimg +0.023 [+0.011, +0.043]; MaleVis +0.020 [+0.014, +0.027]; Dumpware10 +0.059 [+0.027, +0.108]
+Residual duplicates across partitions (mean over splits):
+            L0_file  L1_pixels  L2_identical_hash  L3_hash_le8
+dataset                                                       
+Dumpware10      0.0        0.0                0.0       0.0000
+MaleVis         0.0        0.0                0.0       0.0262
+Malimg          0.0        0.0                0.0       0.0245
+====================================================================================================

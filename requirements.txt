@@ -1,0 +1,10 @@
+# Versions of the Kaggle GPU image used for the runs were not recorded, except where pinned.
+scikit-learn==1.6.1   # required: StratifiedGroupKFold fold assignment differs between versions
+numpy
+pandas
+scipy
+pillow
+matplotlib
+torch
+torchvision
+timm
