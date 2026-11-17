@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper."
+title: "AUDIT-X: code, protocol, splits and literature audit"
+authors:
+  - family-names: Munna
+    given-names: Mohammad Mehedi Hasan
+  - family-names: Kabir
+    given-names: Acramul Haque
+  - family-names: Tulona
+    given-names: Reefka Fabliha
+  - family-names: Islam
+    given-names: Raihan Ul
+  - family-names: Mulk
+    given-names: Md Mansur ul
+version: "1.0"
+license: MIT
+repository-code: "https://github.com/munna237/AUDIT-X"
+preferred-citation:
+  type: article
+  title: "How Duplicates and Evaluation Shortcuts Can Inflate Image-Based Malware Detection: A Leakage-Controlled Study"
+  authors:
+    - family-names: Munna
+      given-names: Mohammad Mehedi Hasan
+    - family-names: Kabir
+      given-names: Acramul Haque
+    - family-names: Tulona
+      given-names: Reefka Fabliha
+    - family-names: Islam
+      given-names: Raihan Ul
+    - family-names: Mulk
+      given-names: Md Mansur ul
+  journal: "IEEE Access"
+  year: 2026
+  status: submitted

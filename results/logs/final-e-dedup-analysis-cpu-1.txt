@@ -1,0 +1,877 @@
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/PROTOCOL.md
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/__notebook__.ipynb
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/__output__.json
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/__results__.html
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_eval_v2.py
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final.py
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/custom.css
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/__pycache__/auditx_eval_v2.cpython-313.pyc
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/MANIFEST.json
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/agef_tuned_lr.json
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/classes.json
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/dinov2_feats.npy
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/groups_stats.json
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/image_keys.json
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/targets.npy
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/split.json
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed0/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed1/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed2/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split0/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/split.json
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed0/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed1/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed2/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split1/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/split.json
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed0/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed1/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed2/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split2/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/split.json
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed0/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed1/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed2/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split3/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/split.json
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed0/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed1/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed2/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10/split4/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/__notebook__.ipynb
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/__output__.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/__results__.html
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_eval_v2.py
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_xrep.py
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/custom.css
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/__pycache__/auditx_eval_v2.cpython-313.pyc
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/config.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/verdict_xrep.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/xrep_raw.csv
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/xrep_raw_Dumpware10_to_MaleVis.csv
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/xrep_raw_MaleVis_to_Dumpware10.csv
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/xrep_summary.csv
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed0/split.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed1/split.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed2/split.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed3/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed3/avg_joint.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed3/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed3/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed3/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed3/split.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed4/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed4/avg_joint.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed4/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed4/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed4/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/Dumpware10_to_MaleVis/seed4/split.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed0/split.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed1/split.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed2/split.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed3/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed3/avg_joint.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed3/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed3/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed3/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed3/split.json
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed4/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed4/avg_joint.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed4/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed4/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed4/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/MaleVis_to_Dumpware10/seed4/split.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/PROTOCOL.md
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/PROTOCOL_AMENDMENT_1.md
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/__notebook__.ipynb
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/__output__.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/__results__.html
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_eval_v2.py
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final.py
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/custom.css
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/__pycache__/auditx_eval_v2.cpython-313.pyc
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/MANIFEST.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/agef_tuned_lr.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/classes.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/dinov2_feats.npy
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/groups_stats.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/image_keys.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/targets.npy
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/split.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed0/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed1/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed2/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split0/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/split.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed0/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed1/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed2/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split1/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/split.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed0/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed1/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed2/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split2/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/split.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed0/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed1/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed2/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split3/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/split.json
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed0/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed0/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed0/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed0/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed1/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed1/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed1/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed1/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed2/agef_sharp.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed2/agef_tuned.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed2/avg_joint.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5/split4/seed2/single_resnet18.npz
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/__notebook__.ipynb
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/__output__.json
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/__results__.html
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_eval_v2.py
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_fewshot.py
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_fewshot_baselines.py
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_xrep.py
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/custom.css
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/__pycache__/auditx_eval_v2.cpython-313.pyc
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/__pycache__/auditx_fewshot.cpython-313.pyc
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/__pycache__/auditx_xrep.cpython-313.pyc
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_v2_fewshot_baselines/config.json
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_v2_fewshot_baselines/fewshot_baselines_raw.csv
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_v2_fewshot_baselines/fewshot_baselines_summary.csv
+/kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_v2_fewshot_baselines/verdict.json
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/__notebook__.ipynb
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/__output__.json
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/__results__.html
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_eval_v2.py
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_fewshot.py
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_xrep.py
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/custom.css
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/__pycache__/auditx_eval_v2.cpython-313.pyc
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/__pycache__/auditx_xrep.cpython-313.pyc
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/__results___files/__results___7_7.png
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_v2_fewshot/config.json
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_v2_fewshot/fewshot_raw.csv
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_v2_fewshot/fewshot_summary.csv
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_v2_fewshot/fig_fewshot.pdf
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_v2_fewshot/fig_fewshot.png
+/kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_v2_fewshot/verdict_fewshot.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/PROTOCOL.md
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/__notebook__.ipynb
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/__output__.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/__results__.html
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_eval_v2.py
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final.py
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/custom.css
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/__pycache__/auditx_eval_v2.cpython-313.pyc
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/MANIFEST.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/agef_tuned_lr.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/classes.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/dinov2_feats.npy
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/groups_stats.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/image_keys.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/targets.npy
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/split.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed0/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed0/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed0/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed0/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed1/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed1/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed1/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed1/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed2/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed2/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed2/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split0/seed2/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/split.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed0/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed0/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed0/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed0/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed1/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed1/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed1/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed1/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed2/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed2/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed2/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split1/seed2/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/split.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed0/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed0/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed0/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed0/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed1/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed1/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed1/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed1/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed2/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed2/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed2/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split2/seed2/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/split.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed0/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed0/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed0/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed0/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed1/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed1/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed1/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed1/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed2/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed2/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed2/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split3/seed2/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/split.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed0/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed0/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed0/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed0/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed1/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed1/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed1/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed1/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed2/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed2/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed2/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-a-malevis/auditx_final_malevis/split4/seed2/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/PROTOCOL.md
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/__notebook__.ipynb
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/__output__.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/__results__.html
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_eval_v2.py
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final.py
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/custom.css
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/__pycache__/auditx_eval_v2.cpython-313.pyc
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/MANIFEST.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/agef_tuned_lr.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/classes.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/dinov2_feats.npy
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/groups_stats.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/image_keys.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/latency.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/targets.npy
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/split.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed0/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed0/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed0/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed0/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed1/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed1/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed1/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed1/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed2/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed2/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed2/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split0/seed2/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/split.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed0/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed0/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed0/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed0/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed1/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed1/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed1/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed1/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed2/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed2/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed2/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split1/seed2/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/split.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed0/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed0/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed0/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed0/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed1/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed1/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed1/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed1/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed2/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed2/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed2/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split2/seed2/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/split.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed0/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed0/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed0/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed0/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed1/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed1/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed1/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed1/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed2/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed2/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed2/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split3/seed2/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/split.json
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed0/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed0/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed0/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed0/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed0/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed0/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed1/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed1/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed1/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed1/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed1/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed1/single_resnet18.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed2/agef_sharp.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed2/agef_tuned.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed2/avg_joint.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed2/single_effnet_b0.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed2/single_mobilenet.npz
+/kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg/split4/seed2/single_resnet18.npz
+
+Malimg: /kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script ef76bd1e6704 | protocol file aaa563ecc3c7
+MaleVis: /kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5 | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script 611bb69d73be | protocol file 9e25083cc4ea
+Dumpware10: /kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10 | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script ef76bd1e6704 | protocol file aaa563ecc3c7
+protocol-document sha256 per run: {'Malimg': 'aaa563ecc3c7ee8bcc59d66a33bcfa60cf8f5e7c98eccff60a966b3e4849853e', 'MaleVis': '9e25083cc4eae36aa1da15f9ca6ce0d0d8ed724e6e7c8cc9319e71f3303eaddf', 'Dumpware10': 'aaa563ecc3c7ee8bcc59d66a33bcfa60cf8f5e7c98eccff60a966b3e4849853e'}
+training-script sha256 per run: {'Malimg': 'ef76bd1e67049b226f9870cd04b00dea3826ba271a559f8f3e18aa7b50d4796b', 'MaleVis': '611bb69d73be92b8d6174eb6c90699c3fc1ad6b1a3643df5c40dfd37e8e18ff1', 'Dumpware10': 'ef76bd1e67049b226f9870cd04b00dea3826ba271a559f8f3e18aa7b50d4796b'}
+runs under the original protocol share one protocol document and one script; MaleVis uses Amendment 1 (different document and script hash, as intended)
+DEDUPLICATED EVALUATION: evaluation images with a training image within 8 bits (or identical file/pixels) are removed
+                      n  removed
+dataset    part                 
+Dumpware10 calib   1849        0
+           test    1800        0
+           unk     3399        0
+MaleVis    calib   5197       30
+           test    5707      313
+           unk    11909        5
+Malimg     calib   3576      183
+           test    3228        0
+           unk     9206        0
+Malimg split 0: scored (4.3 min)
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+Malimg split 1: scored (8.6 min)
+Malimg split 2: scored (12.7 min)
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+Malimg split 3: scored (16.7 min)
+Malimg split 4: scored (20.9 min)
+MaleVis split 0: scored (26.9 min)
+MaleVis split 1: scored (32.9 min)
+MaleVis split 2: scored (38.5 min)
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+MaleVis split 3: scored (44.0 min)
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+/usr/local/lib/python3.13/dist-packages/scipy/stats/_continuous_distns.py:2756: RuntimeWarning: overflow encountered in power
+  return -sc.expm1(-pow(x, c))
+MaleVis split 4: scored (49.7 min)
+Dumpware10 split 0: scored (52.3 min)
+Dumpware10 split 1: scored (54.7 min)
+Dumpware10 split 2: scored (57.1 min)
+Dumpware10 split 3: scored (59.5 min)
+Dumpware10 split 4: scored (62.0 min)
+main table written: 288 rows
+C1 done
+C2 done
+C3 done
+C4 done
+C5 done
+C6 done
+xrep_raw.csv: summarised from /kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/xrep_raw.csv
+fewshot_raw.csv: summarised from /kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_v2_fewshot/fewshot_raw.csv
+fewshot_baselines_raw.csv: summarised from /kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_v2_fewshot_baselines/fewshot_baselines_raw.csv
+====================================================================================================
+EVALUATION: deduplicated (sensitivity analysis, deviation from PROTOCOL.md)
+C1 deep_ensemble+energy vs agef_sharp+energy: pooled +0.048 [+0.033, +0.073], Holm p 0.0000 -> SUPERIOR | Malimg +0.061 [+0.027, +0.136]; MaleVis +0.061 [+0.044, +0.081]; Dumpware10 +0.021 [-0.004, +0.043]
+C2 deep_ensemble+knn50 vs agef_sharp+knn50: pooled +0.032 [+0.024, +0.040], Holm p 0.0000 -> SUPERIOR | Malimg +0.005 [-0.004, +0.015]; MaleVis +0.041 [+0.031, +0.052]; Dumpware10 +0.050 [+0.030, +0.069]
+C3 avg_joint+energy vs agef_sharp+energy: pooled +0.018 [+0.001, +0.045], Holm p 0.0880 -> NO SIGNIFICANT DIFFERENCE | Malimg +0.029 [-0.005, +0.092]; MaleVis +0.029 [+0.002, +0.053]; Dumpware10 -0.004 [-0.038, +0.031]
+C4 agef_tuned+energy vs agef_sharp+energy: pooled +0.022 [-0.000, +0.041], Holm p 0.0880 -> NO SIGNIFICANT DIFFERENCE | Malimg +0.017 [-0.044, +0.049]; MaleVis +0.046 [+0.034, +0.060]; Dumpware10 +0.003 [-0.025, +0.045]
+C5 agef_tuned+energy vs deep_ensemble+energy: pooled -0.026 [-0.067, -0.004], Holm p 0.0180 -> INFERIOR | Malimg -0.044 [-0.169, -0.007]; MaleVis -0.015 [-0.028, -0.002]; Dumpware10 -0.018 [-0.044, +0.027]
+C6 deep_ensemble+energy vs best_single+energy: pooled +0.034 [+0.023, +0.052], Holm p 0.0000 -> SUPERIOR | Malimg +0.023 [+0.011, +0.043]; MaleVis +0.021 [+0.014, +0.027]; Dumpware10 +0.059 [+0.027, +0.108]
+Residual duplicates across partitions (mean over splits):
+            L0_file  L1_pixels  L2_identical_hash  L3_hash_le8
+dataset                                                       
+Dumpware10      0.0        0.0                0.0          0.0
+MaleVis         0.0        0.0                0.0          0.0
+Malimg          0.0        0.0                0.0          0.0
+====================================================================================================
+outputs: ['T_confirmatory.csv', 'T_dedup_removed.csv', 'T_early_exit.csv', 'T_families.csv', 'T_fewshot_baselines_summary.csv', 'T_fewshot_summary.csv', 'T_latency.json', 'T_lowfar.csv', 'T_main_all_scores.csv', 'T_mondrian.csv', 'T_residual_duplicates.csv', 'T_shortcut_pool_scaling.csv', 'T_shortcuts.csv', 'T_triage_note.csv', 'T_variance.csv', 'T_xrep_summary.csv', 'VERDICTS.txt', 'runs_long.csv']
+
+Malimg: /kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script ef76bd1e6704 | protocol file aaa563ecc3c7
+MaleVis: /kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5 | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script 611bb69d73be | protocol file 9e25083cc4ea
+Dumpware10: /kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10 | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2] | protocol OK | script ef76bd1e6704 | protocol file aaa563ecc3c7
+protocol-document sha256 per run: {'Malimg': 'aaa563ecc3c7ee8bcc59d66a33bcfa60cf8f5e7c98eccff60a966b3e4849853e', 'MaleVis': '9e25083cc4eae36aa1da15f9ca6ce0d0d8ed724e6e7c8cc9319e71f3303eaddf', 'Dumpware10': 'aaa563ecc3c7ee8bcc59d66a33bcfa60cf8f5e7c98eccff60a966b3e4849853e'}
+training-script sha256 per run: {'Malimg': 'ef76bd1e67049b226f9870cd04b00dea3826ba271a559f8f3e18aa7b50d4796b', 'MaleVis': '611bb69d73be92b8d6174eb6c90699c3fc1ad6b1a3643df5c40dfd37e8e18ff1', 'Dumpware10': 'ef76bd1e67049b226f9870cd04b00dea3826ba271a559f8f3e18aa7b50d4796b'}
+runs under the original protocol share one protocol document and one script; MaleVis uses Amendment 1 (different document and script hash, as intended)
+DEDUPLICATED EVALUATION: evaluation images with a training image within 8 bits (or identical file/pixels) are removed
+                      n  removed
+dataset    part                 
+Dumpware10 calib   1849        0
+           test    1800        0
+           unk     3399        0
+MaleVis    calib   5197       30
+           test    5707      313
+           unk    11909        5
+Malimg     calib   3576      183
+           test    3228        0
+           unk     9206        0
+Malimg split 0: scored (4.3 min)
+Malimg split 1: scored (8.6 min)
+Malimg split 2: scored (12.7 min)
+Malimg split 3: scored (16.7 min)
+Malimg split 4: scored (20.9 min)
+MaleVis split 0: scored (26.9 min)
+MaleVis split 1: scored (32.9 min)
+MaleVis split 2: scored (38.5 min)
+MaleVis split 3: scored (44.0 min)
+MaleVis split 4: scored (49.7 min)
+Dumpware10 split 0: scored (52.3 min)
+Dumpware10 split 1: scored (54.7 min)
+Dumpware10 split 2: scored (57.1 min)
+Dumpware10 split 3: scored (59.5 min)
+Dumpware10 split 4: scored (62.0 min)
+main table written: 288 rows
+C1 done
+C2 done
+C3 done
+C4 done
+C5 done
+C6 done
+xrep_raw.csv: summarised from /kaggle/input/notebooks/rauf41/08-auditx-cross-representation-new/auditx_v2_xrep/xrep_raw.csv
+fewshot_raw.csv: summarised from /kaggle/input/notebooks/rauf41/10-auditx-fewshot-recovery-new/auditx_v2_fewshot/fewshot_raw.csv
+fewshot_baselines_raw.csv: summarised from /kaggle/input/notebooks/rauf41/14-auditx-fewshot-baselines/auditx_v2_fewshot_baselines/fewshot_baselines_raw.csv
+====================================================================================================
+EVALUATION: deduplicated (sensitivity analysis, deviation from PROTOCOL.md)
+C1 deep_ensemble+energy vs agef_sharp+energy: pooled +0.048 [+0.033, +0.073], Holm p 0.0000 -> SUPERIOR | Malimg +0.061 [+0.027, +0.136]; MaleVis +0.061 [+0.044, +0.081]; Dumpware10 +0.021 [-0.004, +0.043]
+C2 deep_ensemble+knn50 vs agef_sharp+knn50: pooled +0.032 [+0.024, +0.040], Holm p 0.0000 -> SUPERIOR | Malimg +0.005 [-0.004, +0.015]; MaleVis +0.041 [+0.031, +0.052]; Dumpware10 +0.050 [+0.030, +0.069]
+C3 avg_joint+energy vs agef_sharp+energy: pooled +0.018 [+0.001, +0.045], Holm p 0.0880 -> NO SIGNIFICANT DIFFERENCE | Malimg +0.029 [-0.005, +0.092]; MaleVis +0.029 [+0.002, +0.053]; Dumpware10 -0.004 [-0.038, +0.031]
+C4 agef_tuned+energy vs agef_sharp+energy: pooled +0.022 [-0.000, +0.041], Holm p 0.0880 -> NO SIGNIFICANT DIFFERENCE | Malimg +0.017 [-0.044, +0.049]; MaleVis +0.046 [+0.034, +0.060]; Dumpware10 +0.003 [-0.025, +0.045]
+C5 agef_tuned+energy vs deep_ensemble+energy: pooled -0.026 [-0.067, -0.004], Holm p 0.0180 -> INFERIOR | Malimg -0.044 [-0.169, -0.007]; MaleVis -0.015 [-0.028, -0.002]; Dumpware10 -0.018 [-0.044, +0.027]
+C6 deep_ensemble+energy vs best_single+energy: pooled +0.034 [+0.023, +0.052], Holm p 0.0000 -> SUPERIOR | Malimg +0.023 [+0.011, +0.043]; MaleVis +0.021 [+0.014, +0.027]; Dumpware10 +0.059 [+0.027, +0.108]
+Residual duplicates across partitions (mean over splits):
+            L0_file  L1_pixels  L2_identical_hash  L3_hash_le8
+dataset                                                       
+Dumpware10      0.0        0.0                0.0          0.0
+MaleVis         0.0        0.0                0.0          0.0
+Malimg          0.0        0.0                0.0          0.0
+====================================================================================================
+
+### images removed
+
+                      n  removed
+dataset    part                 
+Dumpware10 calib   1849        0
+           test    1800        0
+           unk     3399        0
+MaleVis    calib   5197       30
+           test    5707      313
+           unk    11909        5
+Malimg     calib   3576      183
+           test    3228        0
+           unk     9206        0
+
+### T_confirmatory.csv
+
+    id                config             reference     dataset   delta  ci95_lo  ci95_hi  ci90_lo  ci90_hi      p  p_holm  tost_equivalent
+0   C1  deep_ensemble+energy     agef_sharp+energy      Malimg  0.0608   0.0267   0.1356   0.0326   0.1204  0.002     NaN            False
+1   C1  deep_ensemble+energy     agef_sharp+energy     MaleVis  0.0615   0.0440   0.0808   0.0469   0.0774  0.000     NaN            False
+2   C1  deep_ensemble+energy     agef_sharp+energy  Dumpware10  0.0211  -0.0038   0.0435  -0.0012   0.0403  0.136     NaN            False
+3   C1  deep_ensemble+energy     agef_sharp+energy      pooled  0.0478   0.0327   0.0726   0.0356   0.0694  0.000   0.000            False
+4   C2   deep_ensemble+knn50      agef_sharp+knn50      Malimg  0.0048  -0.0044   0.0154  -0.0027   0.0142  0.244     NaN             True
+5   C2   deep_ensemble+knn50      agef_sharp+knn50     MaleVis  0.0407   0.0305   0.0520   0.0325   0.0496  0.000     NaN            False
+6   C2   deep_ensemble+knn50      agef_sharp+knn50  Dumpware10  0.0497   0.0296   0.0686   0.0316   0.0651  0.000     NaN            False
+7   C2   deep_ensemble+knn50      agef_sharp+knn50      pooled  0.0317   0.0235   0.0398   0.0243   0.0384  0.000   0.000            False
+8   C3      avg_joint+energy     agef_sharp+energy      Malimg  0.0286  -0.0047   0.0925   0.0001   0.0858  0.098     NaN            False
+9   C3      avg_joint+energy     agef_sharp+energy     MaleVis  0.0286   0.0022   0.0531   0.0066   0.0498  0.036     NaN            False
+10  C3      avg_joint+energy     agef_sharp+energy  Dumpware10 -0.0044  -0.0384   0.0311  -0.0327   0.0265  0.868     NaN            False
+11  C3      avg_joint+energy     agef_sharp+energy      pooled  0.0176   0.0009   0.0453   0.0040   0.0415  0.044   0.088            False
+12  C4     agef_tuned+energy     agef_sharp+energy      Malimg  0.0170  -0.0439   0.0491  -0.0351   0.0439  0.580     NaN            False
+13  C4     agef_tuned+energy     agef_sharp+energy     MaleVis  0.0463   0.0336   0.0595   0.0356   0.0580  0.000     NaN            False
+14  C4     agef_tuned+energy     agef_sharp+energy  Dumpware10  0.0034  -0.0252   0.0448  -0.0199   0.0409  0.722     NaN            False
+15  C4     agef_tuned+energy     agef_sharp+energy      pooled  0.0222  -0.0003   0.0413   0.0031   0.0389  0.056   0.088            False
+16  C5     agef_tuned+energy  deep_ensemble+energy      Malimg -0.0439  -0.1693  -0.0072  -0.1497  -0.0112  0.010     NaN            False
+17  C5     agef_tuned+energy  deep_ensemble+energy     MaleVis -0.0151  -0.0285  -0.0022  -0.0260  -0.0040  0.022     NaN             True
+18  C5     agef_tuned+energy  deep_ensemble+energy  Dumpware10 -0.0177  -0.0438   0.0265  -0.0399   0.0218  0.538     NaN            False
+19  C5     agef_tuned+energy  deep_ensemble+energy      pooled -0.0256  -0.0671  -0.0045  -0.0600  -0.0070  0.006   0.018            False
+20  C6  deep_ensemble+energy    best_single+energy      Malimg  0.0227   0.0110   0.0431   0.0141   0.0371  0.006     NaN            False
+21  C6  deep_ensemble+energy    best_single+energy     MaleVis  0.0207   0.0142   0.0270   0.0152   0.0258  0.000     NaN             True
+22  C6  deep_ensemble+energy    best_single+energy  Dumpware10  0.0595   0.0267   0.1080   0.0301   0.1033  0.000     NaN            False
+23  C6  deep_ensemble+energy    best_single+energy      pooled  0.0343   0.0228   0.0519   0.0241   0.0501  0.000   0.000            False
+
+### T_variance.csv
+
+       dataset                   config    mean  sd_seed  sd_split  share_seed
+0   Dumpware10        agef_sharp+energy  0.8831   0.0334    0.0435      0.3708
+1   Dumpware10        agef_tuned+energy  0.8865   0.1065    0.0582      0.7700
+2   Dumpware10         avg_joint+energy  0.8787   0.0657    0.0839      0.3802
+3   Dumpware10     deep_ensemble+energy  0.9042   0.0554    0.0590      0.4693
+4   Dumpware10      deep_ensemble+knn50  0.9345   0.0228    0.0261      0.4322
+5   Dumpware10  single_mobilenet+energy  0.9059   0.0388    0.0278      0.6608
+6      MaleVis        agef_sharp+energy  0.8686   0.0270    0.0750      0.1147
+7      MaleVis        agef_tuned+energy  0.9149   0.0117    0.0458      0.0607
+8      MaleVis         avg_joint+energy  0.8972   0.0550    0.0455      0.5936
+9      MaleVis     deep_ensemble+energy  0.9301   0.0115    0.0416      0.0707
+10     MaleVis      deep_ensemble+knn50  0.9248   0.0136    0.0257      0.2188
+11     MaleVis  single_mobilenet+energy  0.9099   0.0257    0.0359      0.3399
+12      Malimg        agef_sharp+energy  0.8913   0.0628    0.0308      0.8055
+13      Malimg        agef_tuned+energy  0.9083   0.0568    0.0304      0.7779
+14      Malimg         avg_joint+energy  0.9200   0.0556    0.0603      0.4600
+15      Malimg     deep_ensemble+energy  0.9522   0.0245    0.0464      0.2177
+16      Malimg      deep_ensemble+knn50  0.9626   0.0027    0.0497      0.0028
+17      Malimg  single_mobilenet+energy  0.9377   0.0323    0.0494      0.2989
+
+### T_shortcuts.csv
+
+      dataset  pool_size  pool_mean_zdr  s3_same_split_best  s4_best_config_best_split  known_only_rule_zdr  infl_s3_pp  infl_s4_pp  s1_traincal_zdr  leakfree_logit_zdr  infl_s1_pp  s1_far_reported  s1_far_true  \
+0  Dumpware10         42         0.4311              0.5852                     0.7861               0.4027     15.4106     35.4988           0.7002              0.4515     24.8761           0.0494       0.1203   
+1     MaleVis         42         0.4690              0.7270                     0.8897               0.6017     25.8051     42.0746           0.8998              0.4950     40.4779           0.0498       0.2220   
+2      Malimg         42         0.6979              0.9251                     0.9468               0.6400     22.7155     24.8871           0.8775              0.6871     19.0436           0.0496       0.1229   
+
+   far_leakfree  
+0        0.0426  
+1        0.0720  
+2        0.0750  
+
+### T_residual_duplicates.csv
+
+      dataset  L0_file  L1_pixels  L2_identical_hash  L3_hash_le8
+0  Dumpware10      0.0        0.0                0.0          0.0
+1     MaleVis      0.0        0.0                0.0          0.0
+2      Malimg      0.0        0.0                0.0          0.0
+
+### T_lowfar.csv
+
+       dataset             model        score  split  n_calib  reliable     zdr     far  far_lo  far_hi  redraw_far_sd  redraw_zdr_mean  redraw_zdr_sd
+0   Dumpware10        agef_sharp       energy    2.0    369.8       0.0  0.0905  0.0083  0.0023  0.0237         0.0065           0.0839         0.0426
+1   Dumpware10        agef_sharp        knn50    2.0    369.8       0.0  0.0330  0.0038  0.0005  0.0168         0.0065           0.0377         0.0130
+2   Dumpware10        agef_sharp  mahalanobis    2.0    369.8       0.0  0.0500  0.0054  0.0012  0.0193         0.0069           0.0589         0.0283
+3   Dumpware10        agef_tuned       energy    2.0    369.8       0.0  0.1720  0.0087  0.0025  0.0242         0.0070           0.1731         0.0538
+4   Dumpware10        agef_tuned        knn50    2.0    369.8       0.0  0.0799  0.0064  0.0018  0.0206         0.0074           0.0931         0.0461
+5   Dumpware10        agef_tuned  mahalanobis    2.0    369.8       0.0  0.1581  0.0093  0.0026  0.0253         0.0070           0.1500         0.0524
+6   Dumpware10         avg_joint       energy    2.0    369.8       0.0  0.1121  0.0062  0.0013  0.0205         0.0068           0.1121         0.0544
+7   Dumpware10         avg_joint        knn50    2.0    369.8       0.0  0.1241  0.0123  0.0037  0.0298         0.0070           0.1014         0.0281
+8   Dumpware10         avg_joint  mahalanobis    2.0    369.8       0.0  0.1116  0.0061  0.0012  0.0205         0.0064           0.1177         0.0319
+9   Dumpware10     deep_ensemble       energy    2.0    369.8       0.0  0.1729  0.0088  0.0021  0.0248         0.0069           0.1714         0.0348
+10  Dumpware10     deep_ensemble        knn50    2.0    369.8       0.0  0.1371  0.0077  0.0021  0.0226         0.0069           0.1242         0.0302
+11  Dumpware10     deep_ensemble  mahalanobis    2.0    369.8       0.0  0.1481  0.0075  0.0025  0.0220         0.0069           0.1608         0.0414
+12  Dumpware10     dinov2_frozen        knn50    2.0    369.8       0.0  0.0081  0.0089  0.0021  0.0249         0.0070           0.0067         0.0041
+13  Dumpware10     dinov2_frozen  mahalanobis    2.0    369.8       0.0  0.0069  0.0112  0.0031  0.0283         0.0065           0.0062         0.0033
+14  Dumpware10  single_effnet_b0       energy    2.0    369.8       0.0  0.1235  0.0049  0.0008  0.0188         0.0067           0.1455         0.0440
+15  Dumpware10  single_effnet_b0        knn50    2.0    369.8       0.0  0.0928  0.0077  0.0019  0.0228         0.0066           0.0982         0.0252
+16  Dumpware10  single_effnet_b0  mahalanobis    2.0    369.8       0.0  0.1250  0.0045  0.0008  0.0178         0.0068           0.1401         0.0370
+17  Dumpware10  single_mobilenet       energy    2.0    369.8       0.0  0.1812  0.0077  0.0021  0.0226         0.0067           0.1702         0.0331
+18  Dumpware10  single_mobilenet        knn50    2.0    369.8       0.0  0.1142  0.0066  0.0012  0.0214         0.0070           0.1257         0.0340
+19  Dumpware10  single_mobilenet  mahalanobis    2.0    369.8       0.0  0.1689  0.0097  0.0031  0.0256         0.0070           0.1508         0.0337
+20  Dumpware10   single_resnet18       energy    2.0    369.8       0.0  0.1030  0.0105  0.0038  0.0265         0.0070           0.1347         0.0414
+21  Dumpware10   single_resnet18        knn50    2.0    369.8       0.0  0.0686  0.0092  0.0031  0.0246         0.0070           0.0633         0.0271
+22  Dumpware10   single_resnet18  mahalanobis    2.0    369.8       0.0  0.1168  0.0105  0.0032  0.0270         0.0071           0.1186         0.0400
+23     MaleVis        agef_sharp       energy    2.0   1033.4       0.4  0.1269  0.0103  0.0055  0.0182         0.0042           0.1393         0.0107
+24     MaleVis        agef_sharp        knn50    2.0   1033.4       0.4  0.1223  0.0098  0.0053  0.0175         0.0043           0.1174         0.0141
+25     MaleVis        agef_sharp  mahalanobis    2.0   1033.4       0.4  0.1273  0.0269  0.0188  0.0379         0.0042           0.1127         0.0223
+26     MaleVis        agef_tuned       energy    2.0   1033.4       0.4  0.1960  0.0074  0.0033  0.0146         0.0042           0.1884         0.0221
+27     MaleVis        agef_tuned        knn50    2.0   1033.4       0.4  0.1985  0.0098  0.0050  0.0177         0.0043           0.2107         0.0439
+28     MaleVis        agef_tuned  mahalanobis    2.0   1033.4       0.4  0.0397  0.0101  0.0057  0.0176         0.0041           0.0402         0.0171
+29     MaleVis         avg_joint       energy    2.0   1033.4       0.4  0.1293  0.0042  0.0018  0.0099         0.0043           0.1637         0.0303
+30     MaleVis         avg_joint        knn50    2.0   1033.4       0.4  0.0433  0.0065  0.0028  0.0135         0.0042           0.0732         0.0290
+31     MaleVis         avg_joint  mahalanobis    2.0   1033.4       0.4  0.1636  0.0109  0.0058  0.0191         0.0042           0.1280         0.0342
+32     MaleVis     deep_ensemble       energy    2.0   1033.4       0.4  0.1747  0.0201  0.0141  0.0291         0.0040           0.1708         0.0229
+33     MaleVis     deep_ensemble        knn50    2.0   1033.4       0.4  0.1540  0.0094  0.0047  0.0172         0.0043           0.1904         0.0489
+34     MaleVis     deep_ensemble  mahalanobis    2.0   1033.4       0.4  0.0720  0.0188  0.0123  0.0283         0.0043           0.0826         0.0263
+35     MaleVis     dinov2_frozen        knn50    2.0   1033.4       0.4  0.0481  0.0114  0.0059  0.0200         0.0041           0.0429         0.0136
+36     MaleVis     dinov2_frozen  mahalanobis    2.0   1033.4       0.4  0.0769  0.0077  0.0037  0.0149         0.0043           0.0913         0.0378
+37     MaleVis  single_effnet_b0       energy    2.0   1033.4       0.4  0.1643  0.0328  0.0248  0.0437         0.0042           0.1430         0.0191
+38     MaleVis  single_effnet_b0        knn50    2.0   1033.4       0.4  0.1672  0.0177  0.0112  0.0272         0.0042           0.1477         0.0299
+39     MaleVis  single_effnet_b0  mahalanobis    2.0   1033.4       0.4  0.0683  0.0125  0.0077  0.0204         0.0043           0.0640         0.0100
+40     MaleVis  single_mobilenet       energy    2.0   1033.4       0.4  0.1529  0.0111  0.0065  0.0189         0.0042           0.1343         0.0336
+41     MaleVis  single_mobilenet        knn50    2.0   1033.4       0.4  0.1681  0.0092  0.0045  0.0170         0.0043           0.1767         0.0215
+42     MaleVis  single_mobilenet  mahalanobis    2.0   1033.4       0.4  0.1470  0.0180  0.0123  0.0268         0.0041           0.1552         0.0181
+43     MaleVis   single_resnet18       energy    2.0   1033.4       0.4  0.1492  0.0301  0.0214  0.0418         0.0043           0.0970         0.0220
+44     MaleVis   single_resnet18        knn50    2.0   1033.4       0.4  0.1152  0.0075  0.0036  0.0147         0.0042           0.1258         0.0146
+45     MaleVis   single_resnet18  mahalanobis    2.0   1033.4       0.4  0.1554  0.0182  0.0116  0.0277         0.0042           0.1232         0.0109
+46      Malimg        agef_sharp       energy    2.0    678.6       0.0  0.4657  0.0338  0.0244  0.0481         0.0056           0.3815         0.0221
+47      Malimg        agef_sharp        knn50    2.0    678.6       0.0  0.5966  0.0094  0.0036  0.0202         0.0051           0.6058         0.0231
+48      Malimg        agef_sharp  mahalanobis    2.0    678.6       0.0  0.5530  0.0219  0.0162  0.0329         0.0054           0.4362         0.0020
+49      Malimg        agef_tuned       energy    2.0    678.6       0.0  0.5510  0.0489  0.0365  0.0658         0.0054           0.5403         0.0033
+50      Malimg        agef_tuned        knn50    2.0    678.6       0.0  0.4223  0.0051  0.0017  0.0139         0.0050           0.4289         0.0057
+51      Malimg        agef_tuned  mahalanobis    2.0    678.6       0.0  0.5149  0.0475  0.0360  0.0637         0.0053           0.4915         0.0006
+52      Malimg         avg_joint       energy    2.0    678.6       0.0  0.6689  0.0341  0.0240  0.0489         0.0053           0.5191         0.0404
+53      Malimg         avg_joint        knn50    2.0    678.6       0.0  0.4078  0.0055  0.0020  0.0143         0.0054           0.4020         0.0676
+54      Malimg         avg_joint  mahalanobis    2.0    678.6       0.0  0.5490  0.0500  0.0374  0.0672         0.0054           0.5464         0.0041
+55      Malimg     deep_ensemble       energy    2.0    678.6       0.0  0.7842  0.0343  0.0243  0.0491         0.0052           0.5821         0.0230
+56      Malimg     deep_ensemble        knn50    2.0    678.6       0.0  0.6582  0.0331  0.0233  0.0475         0.0055           0.4375         0.0414
+57      Malimg     deep_ensemble  mahalanobis    2.0    678.6       0.0  0.5944  0.0489  0.0369  0.0656         0.0055           0.5856         0.0025
+58      Malimg     dinov2_frozen        knn50    2.0    678.6       0.0  0.1130  0.0100  0.0046  0.0205         0.0056           0.1215         0.0159
+59      Malimg     dinov2_frozen  mahalanobis    2.0    678.6       0.0  0.1960  0.0232  0.0166  0.0350         0.0054           0.1770         0.0167
+60      Malimg  single_effnet_b0       energy    2.0    678.6       0.0  0.7128  0.0337  0.0237  0.0485         0.0054           0.5798         0.0480
+61      Malimg  single_effnet_b0        knn50    2.0    678.6       0.0  0.4787  0.0316  0.0225  0.0455         0.0053           0.3081         0.0580
+62      Malimg  single_effnet_b0  mahalanobis    2.0    678.6       0.0  0.7464  0.0508  0.0379  0.0683         0.0054           0.4053         0.0012
+63      Malimg  single_mobilenet       energy    2.0    678.6       0.0  0.4757  0.0339  0.0239  0.0487         0.0056           0.4390         0.0110
+64      Malimg  single_mobilenet        knn50    2.0    678.6       0.0  0.4944  0.0035  0.0008  0.0117         0.0053           0.5153         0.0153
+65      Malimg  single_mobilenet  mahalanobis    2.0    678.6       0.0  0.5172  0.0470  0.0362  0.0626         0.0051           0.5034         0.0011
+66      Malimg   single_resnet18       energy    2.0    678.6       0.0  0.5716  0.0383  0.0281  0.0531         0.0055           0.5190         0.0163
+67      Malimg   single_resnet18        knn50    2.0    678.6       0.0  0.3104  0.0296  0.0216  0.0425         0.0053           0.2140         0.0260
+68      Malimg   single_resnet18  mahalanobis    2.0    678.6       0.0  0.6500  0.0524  0.0393  0.0701         0.0054           0.3939         0.0061
+score                        energy  entropy  gate_entropy   knn1  knn10   knn5  knn50  mahalanobis  maxlogit    msp  mutual_info  openmax  react_energy  transcend    vim
+dataset    model                                                                                                                                                          
+Dumpware10 agef_sharp         0.883    0.878         0.682  0.909  0.904  0.907  0.885        0.893     0.883  0.878        0.703    0.779         0.821      0.741    NaN
+           agef_tuned         0.886    0.882         0.326  0.946  0.942  0.944  0.930        0.927     0.886  0.881        0.855    0.821         0.873      0.789    NaN
+           avg_joint          0.879    0.877           NaN  0.928  0.921  0.924  0.904        0.903     0.879  0.877        0.767    0.813         0.857      0.757    NaN
+           deep_ensemble      0.904    0.887           NaN  0.946  0.946  0.946  0.935        0.933     0.904  0.887        0.884    0.877         0.888      0.801  0.929
+           dinov2_frozen        NaN      NaN           NaN    NaN    NaN    NaN  0.689        0.707       NaN    NaN          NaN      NaN           NaN        NaN    NaN
+           single_effnet_b0   0.810    0.798           NaN  0.926  0.926  0.926  0.910        0.909     0.811  0.799          NaN    0.749         0.797      0.770  0.912
+           single_mobilenet   0.906    0.903           NaN  0.931  0.928  0.929  0.917        0.917     0.906  0.903          NaN    0.894         0.902      0.789  0.901
+           single_resnet18    0.800    0.831           NaN  0.920  0.911  0.914  0.896        0.916     0.800  0.831          NaN    0.754         0.785      0.714  0.922
+MaleVis    agef_sharp         0.869    0.863         0.507  0.910  0.899  0.904  0.884        0.850     0.870  0.862        0.683    0.725         0.850      0.780    NaN
+           agef_tuned         0.915    0.906         0.357  0.925  0.926  0.928  0.933        0.871     0.914  0.900        0.889    0.818         0.906      0.835    NaN
+           avg_joint          0.897    0.888           NaN  0.911  0.906  0.906  0.896        0.867     0.897  0.886        0.661    0.788         0.887      0.793    NaN
+           deep_ensemble      0.930    0.908           NaN  0.928  0.924  0.931  0.925        0.882     0.931  0.900        0.887    0.842         0.923      0.835  0.885
+           dinov2_frozen        NaN      NaN           NaN    NaN    NaN    NaN  0.760        0.814       NaN    NaN          NaN      NaN           NaN        NaN    NaN
+           single_effnet_b0   0.905    0.894           NaN  0.915  0.911  0.915  0.900        0.872     0.906  0.893          NaN    0.748         0.888      0.823  0.879
+           single_mobilenet   0.910    0.895           NaN  0.917  0.906  0.914  0.890        0.880     0.910  0.893          NaN    0.822         0.897      0.804  0.865
+           single_resnet18    0.884    0.879           NaN  0.886  0.874  0.876  0.886        0.876     0.883  0.876          NaN    0.846         0.883      0.844  0.870
+Malimg     agef_sharp         0.891    0.929         0.628  0.964  0.974  0.976  0.958        0.961     0.892  0.931        0.690    0.890         0.908      0.888    NaN
+           agef_tuned         0.908    0.924         0.542  0.934  0.966  0.965  0.963        0.964     0.909  0.928        0.955    0.910         0.882      0.916    NaN
+           avg_joint          0.920    0.938           NaN  0.955  0.976  0.977  0.972        0.959     0.921  0.938        0.787    0.929         0.916      0.911    NaN
+           deep_ensemble      0.952    0.957           NaN  0.964  0.973  0.973  0.963        0.973     0.954  0.962        0.977    0.907         0.922      0.910  0.953
+           dinov2_frozen        NaN      NaN           NaN    NaN    NaN    NaN  0.777        0.904       NaN    NaN          NaN      NaN           NaN        NaN    NaN
+           single_effnet_b0   0.887    0.878           NaN  0.946  0.962  0.962  0.960        0.961     0.887  0.878          NaN    0.872         0.805      0.893  0.953
+           single_mobilenet   0.938    0.939           NaN  0.964  0.965  0.966  0.961        0.965     0.937  0.938          NaN    0.891         0.930      0.873  0.956
+           single_resnet18    0.907    0.934           NaN  0.957  0.965  0.964  0.946        0.955     0.909  0.938          NaN    0.900         0.868      0.897  0.945

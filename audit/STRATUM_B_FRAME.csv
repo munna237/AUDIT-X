@@ -1,0 +1,68 @@
+ref_in_review,citation_short,venue,likely_access,status
+1,Sheneamer 2024 hybrid ensemble deep TL,ICICT 2024 (IEEE conf),paywalled,author to code
+2,Bagane et al. 2021 CNN/LSTM,CITSM 2021 (IEEE conf),paywalled,author to code
+3,Chen et al. 2020 RGB machine code,ICCCBDA 2020 (IEEE conf),paywalled,author to code
+4,Vu et al. 2019 convolutional transformation network,arXiv,open,CODED P20
+5,Dhanya et al. 2023 Markov images Android,IEEE Syst. J.,paywalled,author to code
+6,Kwan 2022 Markov image TL,TENCON 2022,paywalled,author to code
+7,Nie & Zhu 2026 gamma-M2I,JISA (Elsevier),paywalled,author to code
+8,Duy & Cam 2024 multi-feature Android,AIC 2024,paywalled,author to code
+9,Mohammed et al. 2021 frequency-domain visualization,arXiv 2101.10578,open,CODED P16
+10,Ren & Bai 2021 SFC visualization,CISP-BMEI 2021,paywalled,author to code
+11,Mahato et al. 2024 comparative CNN,ICMNWC 2024,paywalled,author to code
+12,Qiu et al. 2022 MalShuffleNet,preprint,check,author to code (no open full text found)
+13,Wu et al. 2023 MalEdgeNeXt,ICPICS 2023,paywalled,author to code
+14,Yu & Zhang 2025 Swin + Mona,ICECAI 2025,paywalled,author to code
+15,Nair & Syam 2024 Transformers vs CNN,ICCCNT 2024,paywalled,author to code
+16,Seneviratne et al. 2022 SHERLOCK,IEEE Access,open,CODED P17
+17,Ismail et al. 2024 MalSSL,IEEE Access,open,author to code (IEEE Access; full text not retrievable here)
+18,Singh & Chindipha 2026 Siamese voting curation,ICACT 2026,paywalled,author to code
+19,Li et al. 2024 few-shot image+opcode,ISPA 2024,paywalled,author to code
+20,Zhu et al. 2022 few-shot Siamese entropy ransomware,arXiv 2112.00668,open,CODED P21
+21,Won et al. 2023 PlausMal-GAN,IEEE TETC,paywalled,author to code
+22,Joshi et al. 2025 GAN unseen malware,Scientific Reports,open,CODED P18
+23,Reshi & Singh 2024 VAE + CNN,AUTOCOM 2024,paywalled,author to code
+24,Gowri & Charis 2025 opcode BiLSTM vs image CNN,ICNGCS 2025,paywalled,author to code
+26,Frederick et al. 2022 encoded byte corpus,SITIS 2022,paywalled,author to code
+27,Saggu et al. 2024 VGG16 + SVM,preprint,check,author to code (no open full text found)
+28,Freitas et al. 2022 MalNet,CIKM 2022 / arXiv,open,CODED P19
+29,Deepa et al. 2022 VGG16,IC3SIS 2022,paywalled,author to code
+30,Alamri et al. 2026 explainable deep ensemble,IEEE TCE,paywalled,author to code
+31,Brosolo et al. 2025 robustness and explainability,arXiv 2503.01391,open,CODED P14
+32,Kotha et al. 2024 EffiCBNet,ICAAIC 2024,paywalled,author to code
+33,Acharya et al. 2021 EfficientNet,ICCCNT 2021,paywalled,author to code
+34,Bensaoud et al. 2020,arXiv 2010.16108,open,CODED as P01 (overlap with stratum A)
+35,El ghabri et al. 2024 pre-trained models,ICDS 2024,paywalled,author to code
+36,Benbrahim & Behloul 2024 MobileNet+LSTM,IC3IT 2024,paywalled,author to code
+37,Chang et al. 2025 lightweight CNN,ICCE 2025,paywalled,author to code
+38,Liaqat et al. 2025 RGB/grayscale streams,ACDSA 2025,paywalled,author to code
+39,Rahman et al. 2023 CNN vs Transformer,COMNETSAT 2023,paywalled,author to code
+40,Wang et al. 2021 weak-coupling SGAN,ICPR 2020,check (CVF/IEEE),author to code (no open full text found)
+41,Dutta et al. 2025 KOL-4-GEN,IEEE ESL,paywalled,author to code
+42,Abdelmonem et al. 2021 semi-supervised,NILES 2021,paywalled,author to code
+43,Gao et al. 2021 co-training,IPEC 2021,paywalled,author to code
+44,Akash et al. 2023 quantum CNN,DMC 2023,paywalled,author to code
+45,Nataraj et al. 2021 OMD,MILCOM 2021,paywalled,author to code
+46,Tan et al. 2023 MalwareCLIP,CCCI 2023,paywalled,author to code
+47,Zhang et al. 2024 deep hashing RNDPN,IEEE IoT-J,paywalled,author to code
+48,Iadarola et al. 2020 Android reliability,ISSREW 2020,paywalled,author to code
+49,Kumar et al. 2025 MobileNet + MLP,ICCCA 2025,paywalled,author to code
+50,Sasikala & Shanmuganathan 2024 fine-tuned CNN,ICNWC 2024,paywalled,author to code
+51,Takahashi et al. 2025 obfuscated PE,DSN-S 2025,paywalled,author to code
+52,Raveena & Kaja Mohideen 2026 P-DCNN,ICCIDS 2026,paywalled,author to code
+53,Wang et al. 2025 visualization + fusion,ICACTE 2025,paywalled,author to code
+54,Liu & Wang 2023 memory image,ISCC 2023,paywalled,author to code
+55,Hai et al. 2023 EDR + image-based,IEEE Access,open,author to code (IEEE Access; full text not retrievable here)
+56,Prawiranata & Hadiprakoso 2023 Dumpware10 TL,ICoCICs 2023,paywalled,author to code
+57,Paardekooper et al. 2022 GA-designed CNN,CEC 2022,paywalled,author to code
+58,Kumar et al. 2025 CNN+GRU,IC3 2025,paywalled,author to code
+59,Belal & Sundaram 2023 butterfly ViT,IEEE Access,open,author to code (IEEE Access; full text not retrievable here)
+60,Cohen et al. 2020 MalJPEG,IEEE Access,open,EXCLUDE (malicious JPEG files; not malware binaries as images)
+61,Tang et al. 2022 2MFI + RepVGG,TrustCom 2022,paywalled,author to code
+62,Zhong et al. 2022 VisMal,IEEE TC,paywalled,author to code
+63,Li et al. 2024 PH-CNN,ISSSR 2024,paywalled,author to code
+64,Osman et al. 2021 pixel features Android,ICSECS 2021,paywalled,author to code
+65,Sato et al. 2023 obfuscation attack IoT,COMPSAC 2023,paywalled,author to code
+66,Kim 2022 PE-section imaging,BCD 2022,paywalled,author to code
+67,Guo et al. 2020 GIST + KNN,ICCT 2020,paywalled,author to code
+69,Sudheer et al. 2025 WGAN/diffusion synthetic,SVCC 2025,paywalled,author to code

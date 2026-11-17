@@ -1,0 +1,76 @@
+{
+ "dataset": "Dumpware10",
+ "protocol": "grouped-L1-v3+near-L3-8bit-cap250",
+ "n_images": 4294,
+ "n_images_used": 4294,
+ "excluded_families": [],
+ "mean_unseen_families": 2.0,
+ "splits": [
+  {
+   "split": 0,
+   "unseen_families": [
+    "Amonetize",
+    "VBA"
+   ],
+   "n_train": 2350,
+   "n_val": 342,
+   "n_calib": 333,
+   "n_test": 334,
+   "n_unseen": 935,
+   "groups_crossing_parts": 0
+  },
+  {
+   "split": 1,
+   "unseen_families": [
+    "Amonetize",
+    "Vilsel"
+   ],
+   "n_train": 2430,
+   "n_val": 346,
+   "n_calib": 346,
+   "n_test": 347,
+   "n_unseen": 825,
+   "groups_crossing_parts": 0
+  },
+  {
+   "split": 2,
+   "unseen_families": [
+    "Allaple",
+    "BrowseFox"
+   ],
+   "n_train": 2567,
+   "n_val": 359,
+   "n_calib": 371,
+   "n_test": 370,
+   "n_unseen": 627,
+   "groups_crossing_parts": 0
+  },
+  {
+   "split": 3,
+   "unseen_families": [
+    "BrowseFox",
+    "Dinwod"
+   ],
+   "n_train": 2768,
+   "n_val": 414,
+   "n_calib": 412,
+   "n_test": 383,
+   "n_unseen": 317,
+   "groups_crossing_parts": 0
+  },
+  {
+   "split": 4,
+   "unseen_families": [
+    "AutoRun",
+    "VBA"
+   ],
+   "n_train": 2491,
+   "n_val": 355,
+   "n_calib": 387,
+   "n_test": 366,
+   "n_unseen": 695,
+   "groups_crossing_parts": 0
+  }
+ ],
+ "sklearn": "1.6.1"
+}

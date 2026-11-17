@@ -1,0 +1,57 @@
+Malimg: /kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2]
+MaleVis: /kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5 | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2]
+Dumpware10: /kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10 | splits [0, 1, 2, 3, 4] | seeds [0, 1, 2]
+Malimg split 0 scored (2.8 min)
+Malimg split 1 scored (5.8 min)
+Malimg split 2 scored (9.0 min)
+Malimg split 3 scored (12.0 min)
+Malimg split 4 scored (14.9 min)
+MaleVis split 0 scored (19.2 min)
+MaleVis split 1 scored (23.8 min)
+MaleVis split 2 scored (27.8 min)
+MaleVis split 3 scored (32.0 min)
+MaleVis split 4 scored (36.5 min)
+Dumpware10 split 0 scored (38.5 min)
+Dumpware10 split 1 scored (40.3 min)
+Dumpware10 split 2 scored (42.2 min)
+Dumpware10 split 3 scored (44.0 min)
+Dumpware10 split 4 scored (45.8 min)
+C1: grid done
+C2: grid done
+C3: grid done
+C4: grid done
+C5: grid done
+C6: grid done
+F1 Malimg done
+F1 MaleVis done
+F1 Dumpware10 done
+F6 Malimg done
+F6 MaleVis done
+F6 Dumpware10 done
+====================================================================================================
+C1 (energy) seed-propagated: +0.046 [+0.021, +0.078], p 0.0000, Holm 0.0000 (n_boot 1000)
+C2 (knn50) seed-propagated: +0.031 [+0.017, +0.043], p 0.0000, Holm 0.0000 (n_boot 1000)
+C3 (energy) seed-propagated: +0.017 [-0.008, +0.050], p 0.1460, Holm 0.3000 (n_boot 1000)
+C4 (energy) seed-propagated: +0.021 [-0.015, +0.052], p 0.2120, Holm 0.3000 (n_boot 1000)
+C5 (energy) seed-propagated: -0.025 [-0.073, +0.005], p 0.1000, Holm 0.3000 (n_boot 1000)
+C6 (energy) seed-propagated: +0.034 [+0.018, +0.055], p 0.0000, Holm 0.0000 (n_boot 1000)
+Homogeneous seed ensembles vs deep ensemble (energy, AUROC):
+   dataset          ensemble     reference  score  delta  ci95_lo  ci95_hi
+    Malimg seedens_mobilenet deep_ensemble energy  0.005   -0.011    0.027
+    Malimg  seedens_resnet18 deep_ensemble energy -0.038   -0.096    0.009
+    Malimg seedens_effnet_b0 deep_ensemble energy -0.019   -0.057    0.001
+   MaleVis seedens_mobilenet deep_ensemble energy -0.007   -0.016    0.002
+   MaleVis  seedens_resnet18 deep_ensemble energy -0.023   -0.049   -0.003
+   MaleVis seedens_effnet_b0 deep_ensemble energy  0.007   -0.008    0.019
+Dumpware10 seedens_mobilenet deep_ensemble energy  0.022   -0.008    0.069
+Dumpware10  seedens_resnet18 deep_ensemble energy -0.070   -0.140   -0.008
+Dumpware10 seedens_effnet_b0 deep_ensemble energy -0.062   -0.126   -0.001
+Heterogeneity (primary scores):
+id  score  fixed_effect     Q   p_Q    I2  min_dataset  max_dataset
+C1 energy         0.049 2.104 0.349 0.050        0.021        0.061
+C2  knn50         0.024 9.809 0.007 0.796        0.005        0.050
+C3 energy         0.017 1.076 0.584 0.000       -0.004        0.029
+C4 energy         0.038 1.642 0.440 0.000        0.003        0.043
+C5 energy        -0.014 0.523 0.770 0.000       -0.044       -0.013
+C6 energy         0.023 1.957 0.376 0.000        0.020        0.059
+====================================================================================================

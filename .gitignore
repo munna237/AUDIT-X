@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- AUDIT-X specific ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*_local_match.csv
+# never commit dataset images or binaries
+*.png
+*.jpg
+*.jpeg
+*.exe
+*.dll
+*.bin
+!results/**/*.png

@@ -1,0 +1,25 @@
+{
+ "Malimg": {
+  "batch1": {
+   "agef_sharp": 18.455548584461212,
+   "agef_tuned": 18.03140752017498,
+   "avg_joint": 18.494541943073273,
+   "single_mobilenet": 6.0156479477882385,
+   "single_resnet18": 3.2676544040441513,
+   "single_effnet_b0": 9.319683536887169,
+   "deep_ensemble": 18.387680128216743,
+   "agef_sharp_early_exit_50pct": 11.069287732243538
+  },
+  "batch32": {
+   "agef_sharp": 2.4554409086704254,
+   "agef_tuned": 2.4657338857650757,
+   "avg_joint": 2.4668358266353607,
+   "single_mobilenet": 0.21809600293636322,
+   "single_resnet18": 1.176580786705017,
+   "single_effnet_b0": 1.1010292917490005,
+   "deep_ensemble": 2.486550807952881,
+   "agef_sharp_early_exit_50pct": 1.1004682630300522
+  },
+  "gpu": "Tesla T4"
+ }
+}

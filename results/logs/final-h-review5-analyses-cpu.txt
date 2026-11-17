@@ -1,0 +1,250 @@
+Malimg: /kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg | extra models: /kaggle/input/notebooks/rauf41/final-x-malimg-extra-models/auditx_extra_malimg
+MaleVis: /kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5 | extra models: /kaggle/input/notebooks/rauf41/final-x-malevis-extra-models/auditx_extra_malevis
+Dumpware10: /kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10 | extra models: /kaggle/input/notebooks/mohammadmehedimunna/final-x-dumpware10-extra-models/auditx_extra_dumpware10
+Malimg split 0 scored (1.2 min)
+Malimg split 1 scored (2.4 min)
+Malimg split 2 scored (3.4 min)
+Malimg split 3 scored (4.5 min)
+Malimg split 4 scored (5.6 min)
+MaleVis split 0 scored (7.4 min)
+MaleVis split 1 scored (9.1 min)
+MaleVis split 2 scored (10.7 min)
+MaleVis split 3 scored (12.2 min)
+MaleVis split 4 scored (14.1 min)
+Dumpware10 split 0 scored (15.0 min)
+Dumpware10 split 1 scored (15.8 min)
+Dumpware10 split 2 scored (16.6 min)
+Dumpware10 split 3 scored (17.4 min)
+Dumpware10 split 4 scored (18.2 min)
+primary C1 done
+primary C2 done
+primary C3 done
+primary C4 done
+primary C5 done
+primary C6 done
+H1 Malimg: twins flagged
+H1 MaleVis: twins flagged
+H1 Dumpware10: twins flagged
+ncc_dedup C1 done
+ncc_dedup C2 done
+ncc_dedup C3 done
+ncc_dedup C4 done
+ncc_dedup C5 done
+ncc_dedup C6 done
+taxonomy_aware C1 done
+taxonomy_aware C2 done
+taxonomy_aware C3 done
+taxonomy_aware C4 done
+taxonomy_aware C5 done
+taxonomy_aware C6 done
+extra_models X1 done
+extra_models X2 done
+extra_models X3 done
+extra_models X4 done
+extra_models X5 done
+extra_models X6 done
+extra_models X7 done
+extra_models X8 done
+====================================================================================================
+[primary]
+  C1 deep_ensemble vs agef_sharp (energy): +0.046 [+0.023, +0.076]
+  C2 deep_ensemble vs agef_sharp (knn50): +0.031 [+0.017, +0.043]
+  C3 avg_joint vs agef_sharp (energy): +0.017 [-0.007, +0.047]
+  C4 agef_tuned vs agef_sharp (energy): +0.021 [-0.011, +0.048]
+  C5 agef_tuned vs deep_ensemble (energy): -0.025 [-0.071, +0.006]
+  C6 deep_ensemble vs best_single (energy): +0.034 [+0.019, +0.057]
+[ncc_dedup]
+  C1 deep_ensemble vs agef_sharp (energy): +0.052 [+0.027, +0.087]
+  C2 deep_ensemble vs agef_sharp (knn50): +0.034 [+0.018, +0.049]
+  C3 avg_joint vs agef_sharp (energy): +0.020 [-0.007, +0.055]
+  C4 agef_tuned vs agef_sharp (energy): +0.024 [-0.011, +0.055]
+  C5 agef_tuned vs deep_ensemble (energy): -0.028 [-0.073, +0.007]
+  C6 deep_ensemble vs best_single (energy): +0.035 [+0.020, +0.056]
+[taxonomy_aware]
+  C1 deep_ensemble vs agef_sharp (energy): +0.030 [+0.009, +0.055]
+  C2 deep_ensemble vs agef_sharp (knn50): +0.031 [+0.016, +0.044]
+  C3 avg_joint vs agef_sharp (energy): +0.017 [-0.007, +0.045]
+  C4 agef_tuned vs agef_sharp (energy): +0.020 [-0.008, +0.050]
+  C5 agef_tuned vs deep_ensemble (energy): -0.010 [-0.036, +0.019]
+  C6 deep_ensemble vs best_single (energy): +0.030 [+0.015, +0.050]
+[extra_models]
+  X1 snapshot_resnet18 vs deep_ensemble (energy): -0.013 [-0.038, +0.004]
+  X2 snapshot_mobilenet vs deep_ensemble (energy): -0.009 [-0.031, +0.014]  TOST-equivalent
+  X3 snapshot_resnet18 vs agef_sharp (energy): +0.033 [+0.002, +0.064]
+  X4 snapshot_resnet18 vs single_resnet18 (energy): +0.051 [+0.015, +0.086]
+  X5 deep_ensemble_aug vs deep_ensemble (energy): -0.088 [-0.147, -0.038]
+  X6 deep_ensemble_aug vs deep_ensemble (knn50): -0.025 [-0.037, -0.007]
+  X7 single_mobilenet_aug vs single_mobilenet (energy): -0.139 [-0.189, -0.074]
+  X8 deep_ensemble_aug vs agef_sharp (energy): -0.042 [-0.093, +0.015]
+H1 removed (share of images): dataset     part 
+Dumpware10  calib    0.2179
+            test     0.2020
+            unk      0.0000
+MaleVis     calib    0.3184
+            test     0.3266
+            unk      0.0041
+Malimg      calib    0.1123
+            test     0.0687
+            unk      0.0000
+H2 variant families removed:
+   dataset  split                      variant_families_removed  unknown_images_removed  n_unknown
+    Malimg      0                                     Allaple.A                    2948       3595
+    Malimg      1 Allaple.L,Lolyda.AA2,Lolyda.AA3,Swizzor.gen!I                    2030       2030
+    Malimg      2                            C2LOP.P,Lolyda.AA3                     269        488
+    Malimg      3                          Lolyda.AA1,Lolyda.AT                     372        627
+    Malimg      4            Allaple.L,Lolyda.AA1,Swizzor.gen!I                    1936       2466
+   MaleVis      0                                                                     0       2472
+   MaleVis      1                                                                     0       2489
+   MaleVis      2                                                                     0       2480
+   MaleVis      3                                                                     0       2477
+   MaleVis      4                                                                     0       1991
+Dumpware10      0                                                                     0        935
+Dumpware10      1                                                                     0        825
+Dumpware10      2                                                                     0        627
+Dumpware10      3                                                                     0        317
+Dumpware10      4                                                                     0        695
+H3 group vs image calibration (deep ensemble, energy):
+   dataset         model  score  alpha  rule    far    ufr  n_units
+Dumpware10 deep_ensemble energy   0.01 group 0.0079 0.1702    345.0
+Dumpware10 deep_ensemble energy   0.01 image 0.0081 0.1748    369.8
+Dumpware10 deep_ensemble energy   0.05 group 0.0358 0.4921    345.0
+Dumpware10 deep_ensemble energy   0.05 image 0.0390 0.5052    369.8
+   MaleVis deep_ensemble energy   0.01 group 0.0109 0.1478    584.6
+   MaleVis deep_ensemble energy   0.01 image 0.0126 0.1955   1039.4
+   MaleVis deep_ensemble energy   0.05 group 0.0615 0.6017    584.6
+   MaleVis deep_ensemble energy   0.05 image 0.0648 0.6480   1039.4
+    Malimg deep_ensemble energy   0.01 group 0.0362 0.8461    513.2
+    Malimg deep_ensemble energy   0.01 image 0.0461 0.7067    715.2
+    Malimg deep_ensemble energy   0.05 group 0.0928 0.9066    513.2
+    Malimg deep_ensemble energy   0.05 image 0.0894 0.8163    715.2
+H4 S1 gap (energy): 
+   dataset                model  auroc  s1_far_reported  s1_far_true
+Dumpware10           agef_sharp  0.883            0.049        0.106
+Dumpware10           agef_tuned  0.886            0.049        0.127
+Dumpware10            avg_joint  0.879            0.049        0.125
+Dumpware10        deep_ensemble  0.904            0.049        0.126
+Dumpware10    deep_ensemble_aug  0.741            0.049        0.090
+Dumpware10     single_effnet_b0  0.810            0.049        0.103
+Dumpware10 single_effnet_b0_aug  0.765            0.049        0.078
+Dumpware10     single_mobilenet  0.906            0.049        0.125
+Dumpware10 single_mobilenet_aug  0.665            0.049        0.068
+Dumpware10      single_resnet18  0.800            0.049        0.097
+Dumpware10  single_resnet18_aug  0.636            0.049        0.083
+Dumpware10   snapshot_mobilenet  0.911            0.049        0.125
+Dumpware10    snapshot_resnet18  0.873            0.049        0.090
+   MaleVis           agef_sharp  0.876            0.050        0.223
+   MaleVis           agef_tuned  0.919            0.050        0.260
+   MaleVis            avg_joint  0.901            0.050        0.183
+   MaleVis        deep_ensemble  0.931            0.050        0.225
+   MaleVis    deep_ensemble_aug  0.908            0.050        0.209
+   MaleVis     single_effnet_b0  0.908            0.050        0.169
+   MaleVis single_effnet_b0_aug  0.879            0.050        0.176
+   MaleVis     single_mobilenet  0.911            0.050        0.210
+   MaleVis single_mobilenet_aug  0.852            0.050        0.179
+   MaleVis      single_resnet18  0.889            0.050        0.191
+   MaleVis  single_resnet18_aug  0.815            0.050        0.192
+   MaleVis   snapshot_mobilenet  0.913            0.050        0.212
+   MaleVis    snapshot_resnet18  0.924            0.050        0.182
+    Malimg           agef_sharp  0.891            0.050        0.095
+    Malimg           agef_tuned  0.908            0.050        0.160
+    Malimg            avg_joint  0.920            0.049        0.123
+    Malimg        deep_ensemble  0.952            0.050        0.125
+    Malimg    deep_ensemble_aug  0.876            0.050        0.098
+    Malimg     single_effnet_b0  0.887            0.050        0.099
+    Malimg single_effnet_b0_aug  0.809            0.050        0.090
+    Malimg     single_mobilenet  0.938            0.050        0.127
+    Malimg single_mobilenet_aug  0.822            0.050        0.104
+    Malimg      single_resnet18  0.907            0.050        0.110
+    Malimg  single_resnet18_aug  0.788            0.050        0.086
+    Malimg   snapshot_mobilenet  0.936            0.050        0.119
+    Malimg    snapshot_resnet18  0.951            0.050        0.105
+====================================================================================================
+outputs: ['H1_ncc_removed.csv', 'H2_taxonomy_removed.csv', 'H3_group_calibration.csv', 'H3_group_calibration_raw.csv', 'H4_models_long.csv', 'H4_models_summary.csv', 'H_SUMMARY.txt', 'H_comparisons.csv']
+
+ensemble (energy): -0.088 [-0.147, -0.038]
+  X6 deep_ensemble_aug vs deep_ensemble (knn50): -0.025 [-0.037, -0.007]
+  X7 single_mobilenet_aug vs single_mobilenet (energy): -0.139 [-0.189, -0.074]
+  X8 deep_ensemble_aug vs agef_sharp (energy): -0.042 [-0.093, +0.015]
+H1 removed (share of images): dataset     part 
+Dumpware10  calib    0.2179
+            test     0.2020
+            unk      0.0000
+MaleVis     calib    0.3184
+            test     0.3266
+            unk      0.0041
+Malimg      calib    0.1123
+            test     0.0687
+            unk      0.0000
+H2 variant families removed:
+   dataset  split                      variant_families_removed  unknown_images_removed  n_unknown
+    Malimg      0                                     Allaple.A                    2948       3595
+    Malimg      1 Allaple.L,Lolyda.AA2,Lolyda.AA3,Swizzor.gen!I                    2030       2030
+    Malimg      2                            C2LOP.P,Lolyda.AA3                     269        488
+    Malimg      3                          Lolyda.AA1,Lolyda.AT                     372        627
+    Malimg      4            Allaple.L,Lolyda.AA1,Swizzor.gen!I                    1936       2466
+   MaleVis      0                                                                     0       2472
+   MaleVis      1                                                                     0       2489
+   MaleVis      2                                                                     0       2480
+   MaleVis      3                                                                     0       2477
+   MaleVis      4                                                                     0       1991
+Dumpware10      0                                                                     0        935
+Dumpware10      1                                                                     0        825
+Dumpware10      2                                                                     0        627
+Dumpware10      3                                                                     0        317
+Dumpware10      4                                                                     0        695
+H3 group vs image calibration (deep ensemble, energy):
+   dataset         model  score  alpha  rule    far    ufr  n_units
+Dumpware10 deep_ensemble energy   0.01 group 0.0079 0.1702    345.0
+Dumpware10 deep_ensemble energy   0.01 image 0.0081 0.1748    369.8
+Dumpware10 deep_ensemble energy   0.05 group 0.0358 0.4921    345.0
+Dumpware10 deep_ensemble energy   0.05 image 0.0390 0.5052    369.8
+   MaleVis deep_ensemble energy   0.01 group 0.0109 0.1478    584.6
+   MaleVis deep_ensemble energy   0.01 image 0.0126 0.1955   1039.4
+   MaleVis deep_ensemble energy   0.05 group 0.0615 0.6017    584.6
+   MaleVis deep_ensemble energy   0.05 image 0.0648 0.6480   1039.4
+    Malimg deep_ensemble energy   0.01 group 0.0362 0.8461    513.2
+    Malimg deep_ensemble energy   0.01 image 0.0461 0.7067    715.2
+    Malimg deep_ensemble energy   0.05 group 0.0928 0.9066    513.2
+    Malimg deep_ensemble energy   0.05 image 0.0894 0.8163    715.2
+H4 S1 gap (energy): 
+   dataset                model  auroc  s1_far_reported  s1_far_true
+Dumpware10           agef_sharp  0.883            0.049        0.106
+Dumpware10           agef_tuned  0.886            0.049        0.127
+Dumpware10            avg_joint  0.879            0.049        0.125
+Dumpware10        deep_ensemble  0.904            0.049        0.126
+Dumpware10    deep_ensemble_aug  0.741            0.049        0.090
+Dumpware10     single_effnet_b0  0.810            0.049        0.103
+Dumpware10 single_effnet_b0_aug  0.765            0.049        0.078
+Dumpware10     single_mobilenet  0.906            0.049        0.125
+Dumpware10 single_mobilenet_aug  0.665            0.049        0.068
+Dumpware10      single_resnet18  0.800            0.049        0.097
+Dumpware10  single_resnet18_aug  0.636            0.049        0.083
+Dumpware10   snapshot_mobilenet  0.911            0.049        0.125
+Dumpware10    snapshot_resnet18  0.873            0.049        0.090
+   MaleVis           agef_sharp  0.876            0.050        0.223
+   MaleVis           agef_tuned  0.919            0.050        0.260
+   MaleVis            avg_joint  0.901            0.050        0.183
+   MaleVis        deep_ensemble  0.931            0.050        0.225
+   MaleVis    deep_ensemble_aug  0.908            0.050        0.209
+   MaleVis     single_effnet_b0  0.908            0.050        0.169
+   MaleVis single_effnet_b0_aug  0.879            0.050        0.176
+   MaleVis     single_mobilenet  0.911            0.050        0.210
+   MaleVis single_mobilenet_aug  0.852            0.050        0.179
+   MaleVis      single_resnet18  0.889            0.050        0.191
+   MaleVis  single_resnet18_aug  0.815            0.050        0.192
+   MaleVis   snapshot_mobilenet  0.913            0.050        0.212
+   MaleVis    snapshot_resnet18  0.924            0.050        0.182
+    Malimg           agef_sharp  0.891            0.050        0.095
+    Malimg           agef_tuned  0.908            0.050        0.160
+    Malimg            avg_joint  0.920            0.049        0.123
+    Malimg        deep_ensemble  0.952            0.050        0.125
+    Malimg    deep_ensemble_aug  0.876            0.050        0.098
+    Malimg     single_effnet_b0  0.887            0.050        0.099
+    Malimg single_effnet_b0_aug  0.809            0.050        0.090
+    Malimg     single_mobilenet  0.938            0.050        0.127
+    Malimg single_mobilenet_aug  0.822            0.050        0.104
+    Malimg      single_resnet18  0.907            0.050        0.110
+    Malimg  single_resnet18_aug  0.788            0.050        0.086
+    Malimg   snapshot_mobilenet  0.936            0.050        0.119
+    Malimg    snapshot_resnet18  0.951            0.050        0.105
+====================================================================================================

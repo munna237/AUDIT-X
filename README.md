@@ -104,8 +104,7 @@ sensitivity analysis.
 
 `audit/` contains the audit of reporting practice in malware-image studies: the coding protocol
 (`AUDIT_PROTOCOL.md`), the coding manual, the search log, the external sampling frame (`STRATUM_B_FRAME.csv`) and the
-agreement and tally scripts. The coded sheets of both coders, with a quotation for every code, are added once
-independent second coding is complete.
+agreement and tally scripts. Both coders' coded sheets, with a quotation for every code, the resolution workbooks and the final codes are in `audit/`.
 
 ## Licence
 

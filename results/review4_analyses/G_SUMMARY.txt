@@ -1,0 +1,151 @@
+Malimg: /kaggle/input/notebooks/mohammadmehedimunna/final-b-malimg/auditx_final_malimg | protocol OK
+MaleVis: /kaggle/input/notebooks/rauf41/final-a2-malevis-amendment1/auditx_final_malevis_v5 | protocol OK
+Dumpware10: /kaggle/input/notebooks/rauf41/final-c-dumpware10/auditx_final_dumpware10 | protocol OK
+Malimg split 0 done (1.0 min)
+Malimg split 1 done (2.0 min)
+Malimg split 2 done (2.8 min)
+Malimg split 3 done (3.7 min)
+Malimg split 4 done (4.7 min)
+MaleVis split 0 done (6.0 min)
+MaleVis split 1 done (7.4 min)
+MaleVis split 2 done (8.7 min)
+MaleVis split 3 done (10.0 min)
+MaleVis split 4 done (11.3 min)
+Dumpware10 split 0 done (11.8 min)
+Dumpware10 split 1 done (12.3 min)
+Dumpware10 split 2 done (12.8 min)
+Dumpware10 split 3 done (13.2 min)
+Dumpware10 split 4 done (13.7 min)
+G1 seedens_agef_sharp vs deep_ensemble (energy) done
+G1 seedens_agef_sharp vs deep_ensemble (knn50) done
+G1 seedens_agef_sharp vs seedens_mobilenet (energy) done
+G1 seedens_agef_tuned vs deep_ensemble (energy) done
+G1 seedens_agef_sharp vs agef_sharp (energy) done
+G2 seedens_mobilenet vs deep_ensemble (energy) done
+G2 seedens_mobilenet vs deep_ensemble (knn50) done
+G3 stack_lr vs deep_ensemble_halfcal (energy) done
+G3 stack_weights vs deep_ensemble_halfcal (energy) done
+G3 stack_lr vs agef_sharp (energy) done
+G3 frozen_gate vs deep_ensemble_halfcal (energy) done
+G3 frozen_gate vs agef_sharp (energy) done
+C1 deep_ensemble vs agef_sharp (energy) done
+C2 deep_ensemble vs agef_sharp (knn50) done
+C3 avg_joint vs agef_sharp (energy) done
+C4 agef_tuned vs agef_sharp (energy) done
+C5 agef_tuned vs deep_ensemble (energy) done
+C6 deep_ensemble vs best_single (energy) done
+G11 C1 family-macro done
+G11 C2 family-macro done
+G11 C3 family-macro done
+G11 C4 family-macro done
+G11 C5 family-macro done
+G11 C6 family-macro done
+G13: 0.03 AUROC corresponds to about 7.3 pp UFR at matched 5% FAR; median seed SD of AUROC 0.018
+G16 Malimg done
+G16 MaleVis done
+G16 Dumpware10 done
+====================================================================================================
+G1 seedens_agef_sharp vs deep_ensemble (energy): -0.011 [-0.043, +0.009] 90% [-0.037, +0.005] TOST not shown | random effects -0.015 [-0.052, +0.023] | MDE80 0.035
+G1 seedens_agef_sharp vs deep_ensemble (knn50): -0.013 [-0.022, -0.004] 90% [-0.020, -0.005] TOST equivalent | random effects -0.011 [-0.024, +0.003] | MDE80 0.013
+G1 seedens_agef_sharp vs seedens_mobilenet (energy): -0.017 [-0.049, -0.005] 90% [-0.042, -0.007] TOST not shown | random effects -0.015 [-0.041, +0.011] | MDE80 0.030
+G1 seedens_agef_tuned vs deep_ensemble (energy): -0.008 [-0.051, +0.013] 90% [-0.044, +0.009] TOST not shown | random effects -0.005 [-0.017, +0.007] | MDE80 0.045
+G1 seedens_agef_sharp vs agef_sharp (energy): +0.035 [+0.018, +0.055] 90% [+0.019, +0.051] TOST not shown | random effects +0.030 [+0.012, +0.048] | MDE80 0.028
+G2 seedens_mobilenet vs deep_ensemble (energy): +0.007 [-0.007, +0.024] 90% [-0.005, +0.021] TOST equivalent | random effects -0.001 [-0.014, +0.011] | MDE80 0.022
+G2 seedens_mobilenet vs deep_ensemble (knn50): -0.007 [-0.014, +0.001] 90% [-0.013, -0.000] TOST equivalent | random effects -0.005 [-0.012, +0.003] | MDE80 0.010
+G3 stack_lr vs deep_ensemble_halfcal (energy): -0.049 [-0.081, -0.030] 90% [-0.076, -0.033] TOST not shown | random effects -0.049 [-0.116, +0.019] | MDE80 0.038
+G3 stack_weights vs deep_ensemble_halfcal (energy): -0.024 [-0.046, -0.004] 90% [-0.043, -0.006] TOST not shown | random effects -0.008 [-0.020, +0.004] | MDE80 0.033
+G3 stack_lr vs agef_sharp (energy): -0.003 [-0.042, +0.032] 90% [-0.035, +0.025] TOST not shown | random effects -0.005 [-0.067, +0.057] | MDE80 0.053
+G3 frozen_gate vs deep_ensemble_halfcal (energy): -0.019 [-0.035, -0.002] 90% [-0.032, -0.005] TOST not shown | random effects -0.013 [-0.023, -0.002] | MDE80 0.024
+G3 frozen_gate vs agef_sharp (energy): +0.027 [+0.004, +0.061] 90% [+0.008, +0.056] TOST not shown | random effects +0.029 [-0.007, +0.066] | MDE80 0.041
+C1 deep_ensemble vs agef_sharp (energy): +0.046 [+0.020, +0.079] 90% [+0.025, +0.073] TOST not shown | random effects +0.050 [+0.031, +0.069] | MDE80 0.040
+C2 deep_ensemble vs agef_sharp (knn50): +0.031 [+0.017, +0.045] 90% [+0.019, +0.042] TOST not shown | random effects +0.029 [+0.001, +0.058] | MDE80 0.020
+C3 avg_joint vs agef_sharp (energy): +0.017 [-0.007, +0.049] 90% [-0.002, +0.045] TOST not shown | random effects +0.016 [-0.010, +0.043] | MDE80 0.040
+C4 agef_tuned vs agef_sharp (energy): +0.021 [-0.012, +0.048] 90% [-0.006, +0.045] TOST not shown | random effects +0.038 [+0.020, +0.055] | MDE80 0.043
+C5 agef_tuned vs deep_ensemble (energy): -0.025 [-0.074, +0.005] 90% [-0.064, +0.001] TOST not shown | random effects -0.014 [-0.029, +0.001] | MDE80 0.055
+C6 deep_ensemble vs best_single (energy): +0.034 [+0.020, +0.056] 90% [+0.022, +0.053] TOST not shown | random effects +0.023 [+0.011, +0.036] | MDE80 0.027
+Gate collapse (runs with one expert weight > 0.9): dataset     model     
+Dumpware10  agef_sharp    0
+            agef_tuned    0
+MaleVis     agef_sharp    0
+            agef_tuned    0
+Malimg      agef_sharp    0
+            agef_tuned    0
+Nested shortcuts:
+   dataset  pool  prespecified  pool_mean  nested_select_other_split  same_split_best  nested_vs_prespecified_pp  same_split_vs_prespecified_pp
+    Malimg    14         0.816      0.714                      0.703            0.916                    -11.287                          9.938
+   MaleVis    14         0.648      0.489                      0.628            0.687                     -1.998                          3.892
+Dumpware10    14         0.505      0.400                      0.460            0.528                     -4.528                          2.289
+Family-macro C1-C6 (pooled):
+id        config     reference  score dataset  delta_family_macro  ci95_lo  ci95_hi
+C1 deep_ensemble    agef_sharp energy  pooled               0.052    0.024    0.082
+C2 deep_ensemble    agef_sharp  knn50  pooled               0.031    0.017    0.043
+C3     avg_joint    agef_sharp energy  pooled               0.028   -0.000    0.054
+C4    agef_tuned    agef_sharp energy  pooled               0.019   -0.012    0.048
+C5    agef_tuned deep_ensemble energy  pooled              -0.033   -0.077    0.003
+C6 deep_ensemble   best_single energy  pooled               0.037    0.019    0.058
+Family jackknife:
+   dataset         id  value  jk_min  jk_max  sign_changes
+    Malimg n_families 15.000     NaN     NaN           NaN
+    Malimg         C1  0.061   0.053   0.079           0.0
+    Malimg         C2  0.005   0.003   0.009           0.0
+    Malimg         C3  0.029   0.021   0.046           0.0
+    Malimg         C4  0.017  -0.008   0.028           1.0
+    Malimg         C5 -0.044  -0.087  -0.025           0.0
+    Malimg         C6  0.023   0.020   0.026           0.0
+   MaleVis n_families 16.000     NaN     NaN           NaN
+   MaleVis         C1  0.056   0.048   0.059           0.0
+   MaleVis         C2  0.039   0.036   0.041           0.0
+   MaleVis         C3  0.026   0.018   0.036           0.0
+   MaleVis         C4  0.043   0.039   0.048           0.0
+   MaleVis         C5 -0.013  -0.016  -0.009           0.0
+   MaleVis         C6  0.020   0.019   0.022           0.0
+Dumpware10 n_families  7.000     NaN     NaN           NaN
+Dumpware10         C1  0.021   0.011   0.031           0.0
+Dumpware10         C2  0.050   0.039   0.055           0.0
+Dumpware10         C3 -0.004  -0.017   0.010           3.0
+Dumpware10         C4  0.003  -0.008   0.030           2.0
+Dumpware10         C5 -0.018  -0.027   0.006           1.0
+Dumpware10         C6  0.059   0.041   0.090           0.0
+KNN bank size:
+bank                       1000   3000   6000
+dataset    model                             
+Dumpware10 agef_sharp     0.816  0.876  0.876
+           deep_ensemble  0.872  0.936  0.936
+MaleVis    agef_sharp     0.496  0.769  0.879
+           deep_ensemble  0.365  0.819  0.925
+Malimg     agef_sharp     0.740  0.929  0.976
+           deep_ensemble  0.679  0.875  0.962
+LR sweep:
+   dataset    lr  val_acc  val_nll  chosen
+    Malimg 0.000   99.366    0.029    True
+    Malimg 0.000   99.154    0.036   False
+    Malimg 0.001   98.943    0.033   False
+   MaleVis 0.000   96.960    0.115   False
+   MaleVis 0.000   97.828    0.094    True
+   MaleVis 0.001   97.828    0.109   False
+Dumpware10 0.000   98.830    0.059   False
+Dumpware10 0.000   98.538    0.048   False
+Dumpware10 0.001   99.123    0.020    True
+Near-duplicate validity:
+   dataset          pair_type  n_pairs_available  n_checked  ncc_median  share_ncc_ge_0p9  share_ncc_ge_0p8
+    Malimg             0 bits              57408        150       1.000             1.000             1.000
+    Malimg           1-8 bits              11453        150       0.998             1.000             1.000
+    Malimg          9-16 bits              26502        150       0.994             1.000             1.000
+    Malimg random same family                125        125       0.688             0.296             0.424
+   MaleVis             0 bits             123243        150       1.000             1.000             1.000
+   MaleVis           1-8 bits              53977        150       0.999             1.000             1.000
+   MaleVis          9-16 bits              21379        150       0.998             0.987             1.000
+   MaleVis random same family                130        130       0.418             0.254             0.331
+Dumpware10             0 bits                 11         11       1.000             1.000             1.000
+Dumpware10           1-8 bits                439        150       0.998             1.000             1.000
+Dumpware10          9-16 bits                623        150       0.989             0.980             1.000
+Dumpware10 random same family                 55         55       0.586             0.036             0.164
+Original MaleVis without VBA (energy):
+        model     version  auroc  ufr5  far5
+   agef_sharp         all  0.947 0.535 0.039
+   agef_sharp without_VBA  0.942 0.548 0.044
+    avg_joint         all  0.948 0.564 0.043
+    avg_joint without_VBA  0.941 0.575 0.051
+deep_ensemble         all  0.965 0.689 0.042
+deep_ensemble without_VBA  0.961 0.708 0.048
+====================================================================================================
