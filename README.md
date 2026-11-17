@@ -2,7 +2,7 @@
 
 Code, protocol, splits, results and literature audit for the paper
 
-> *How Duplicates and Evaluation Shortcuts Can Inflate Image-Based Malware Detection: A Leakage-Controlled Study* (IEEE Access, under review).
+> *How Duplicates and Evaluation Shortcuts Can Inflate Image-Based Malware Detection: A Leakage-Controlled Study*.
 
 Repository: https://github.com/munna237/AUDIT-X
 
