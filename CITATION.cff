@@ -3,15 +3,21 @@ message: "If you use this repository, please cite the paper."
 title: "AUDIT-X: code, protocol, splits and literature audit"
 authors:
   - family-names: Munna
-    given-names: Mohammad Mehedi Hasan
+    given-names: "Mohammad Mehedi Hasan"
+    orcid: "https://orcid.org/0009-0008-5551-5163"
   - family-names: Kabir
-    given-names: Acramul Haque
+    given-names: "Acramul Haque"
+    orcid: "https://orcid.org/0000-0002-4899-5786"
   - family-names: Tulona
-    given-names: Reefka Fabliha
-  - family-names: Islam
-    given-names: Raihan Ul
+    given-names: "Reefka Fabliha"
+    orcid: "https://orcid.org/0009-0002-3557-0938"
+  - family-names: Antu
+    given-names: "Nahid Hossain"
   - family-names: Mulk
-    given-names: Md Mansur ul
+    given-names: "Md. Mansur ul"
+    orcid: "https://orcid.org/0009-0000-0743-3309"
+  - family-names: Chowdhury
+    given-names: "Arvid"
 version: "1.0"
 license: MIT
 repository-code: "https://github.com/munna237/AUDIT-X"
@@ -20,15 +26,21 @@ preferred-citation:
   title: "How Duplicates and Evaluation Shortcuts Can Inflate Image-Based Malware Detection: A Leakage-Controlled Study"
   authors:
     - family-names: Munna
-      given-names: Mohammad Mehedi Hasan
+      given-names: "Mohammad Mehedi Hasan"
+      orcid: "https://orcid.org/0009-0008-5551-5163"
     - family-names: Kabir
-      given-names: Acramul Haque
+      given-names: "Acramul Haque"
+      orcid: "https://orcid.org/0000-0002-4899-5786"
     - family-names: Tulona
-      given-names: Reefka Fabliha
-    - family-names: Islam
-      given-names: Raihan Ul
+      given-names: "Reefka Fabliha"
+      orcid: "https://orcid.org/0009-0002-3557-0938"
+    - family-names: Antu
+      given-names: "Nahid Hossain"
     - family-names: Mulk
-      given-names: Md Mansur ul
-  journal: "IEEE Access"
+      given-names: "Md. Mansur ul"
+      orcid: "https://orcid.org/0009-0000-0743-3309"
+    - family-names: Chowdhury
+      given-names: "Arvid"
+  journal: "International Journal of Information Security"
   year: 2026
   status: submitted
